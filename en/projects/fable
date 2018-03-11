@@ -1,0 +1,419 @@
+
+
+<!doctype html>
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="" /><meta name="keywords" content="progetti" /><link href="../../assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="../../assets/scripts/vendor/modernizr.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-12562825-31', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+<title>
+	Progetti | Petas
+</title></head>
+
+<body>
+
+    <header id="header">
+        
+
+
+<div class="buttons">
+	<a class="logo no-link" href="../../index.html">
+        <span></span>
+    </a>
+    <button class="nav">
+        <span class="hamburger"></span>
+    </button>
+</div>
+
+<aside class="menu">
+    <div class="nav-slanted"></div>
+    <nav>
+        <ul>
+            <li class="mobile">
+                <a class="no-link" data-view="homepage" href="../index.html">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="progetti" href="fable">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="attivita" href="../services/constructions">
+                    <span>Services</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="settori" href="../industries/retail">
+                    <span>Industries</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="azienda" href="../company/team">
+                    <span>Company</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="contact" href="../contacts">
+                    <span>Contacts</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nav-lang">
+    <a class="no-link" href="../../index.html"> IT </a>
+    <a class="no-link" href="../index.html"> EN </a>
+  </div>
+</aside>
+
+
+<div id="nav-lat">
+    <div id="nav-attivita">
+        <a data-type="pages" data-view="attivita" href="../services/constructions">Services</a>
+    </div>
+    <div id="nav-settori">
+        <a data-type="pages" data-view="settori" href="../industries/retail">Industries</a>
+    </div>
+</div>
+
+
+<nav id="sidebar" role="navigation" aria-label="Quick Navigation">
+    <ol class="bar nav--bar">
+        <!--creato dinamicamente-->
+    </ol>
+</nav>
+    </header>
+
+    <section id="main">
+        <div id="container" class="container">
+            
+
+<article id="expo_section" class="slider--fullscreen scroller" data-base-href="/en/projects">
+
+	    <section class="slider__item" id="progetti0" data-path="/fable" >
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50 first">
+                    <div class="mask-rect mask-rect--left">
+                        <img class="clipped" src="../../assets/images/progetti/favola-small.jpg" />
+                    </div>
+                    <h2>
+                        <span>Petas: discover </span><span>the magic</span>
+                    </h2>
+                </div>
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>After the success gained at Expo Milan 2015, Petas realized all the new thematic decorations for the new Gardaland Resort, the Adventure Hotel, and all the scenography for the new Park’s ride: the Kung Fu Panda Academy.</p>
+                        <p class="text-simple">Fiberglass scenography, decorations and sculptures brought to life a unique Hotel, dedicated to the bravest adventurers that, due to the four themed Rooms (Jungle, Arabian, Artic and Wild West), can challenge themselves during their stay.
+The Restaurant’s decorations, inspired by Tutankhamon’s Legend, offer a real journey through the Ancient Egypt;
+guests can undertake this journey since entering the building’s threshold, walking through the Submarine. 
+The Kung Fu Panda Academy symbolizes Petas perfect achievement in the reproduction of Dreamworks Magic World:  each detail and every single aspect deeply follows the famous animation movie.</p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="dreamworks"><span> project </span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="progetti1" data-path="/expo">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+					<div class="mask-rect mask-rect--right">
+						<img class="clipped" src="../../assets/images/progetti/childrenpark_small.jpg" />
+					</div>
+					<h2>
+						<span>Petas for</span><span>Expo</span>
+					</h2>
+                </div>
+
+                <div class="grid-50 grid-left">
+                    <div class="cont-text left-text">
+                        <p>Petas brings fun, educational and relaxing areas for children to the one of the most important international projects – EXPO Milan 2015.</p>
+                        <p class="text-simple">This amazing multicultural exhibition is designed and organized around child and family-friendly approach to welcome visitors of all ages. The theme "Feeding the Planet, Energy for Life” is interpreted through interactive spaces based on play and discovery of different forms of life on the planet. The EXPO Children Park allows small adventurers exploring all the earth’s key elements such as water, air, land, energy and flora & fauna in an engaging, joyful and amusing way. It’s about a powerful message delivered in a powerful setting.</p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="expo"><span> project </span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<div id="nav-counter" class="left-position">
+        <div class="current-count">
+            <span></span>
+        </div>
+        <div class="sep-count"> / </div>
+        <div class="total-count">
+            <span></span>
+        </div>
+    </div>
+
+</article>
+
+<div id="gallery_expo" style="display: none">
+
+    <div class="cycle-overlay"></div>
+
+    <div class="item" data-cycle-desc=" Feeding the Planet, Energy for Life - The Children’s Park - Video ">
+        <a class="youtube-play" target="_blank" href="https://www.youtube.com/watch?v=OLd68cbSD5Y">
+            <i class="icon-youtube"></i>
+        </a>
+        <div class="bg-overlay"></div>
+        <img src="../../assets/images/progetti/expo/oriz_001.jpg" style="height: auto; width: 100%" />
+
+    </div>
+
+    <div class="item" data-cycle-desc="The Children's Park view" >
+        <img src="../../assets/images/progetti/expo/oriz_002.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Interior design detailed view - The Children’s Park" >
+        <img src="../../assets/images/progetti/expo/oriz_003.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Drop by drop - The Children’s Park" >
+        <img src="../../assets/images/progetti/expo/oriz_004.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="The Children's Park view" >
+        <img src="../../assets/images/progetti/expo/oriz_005.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Detail of the design sunshades created in collaboration with the <a href='https://www.youtube.com/watch?v=N6AT4OlDk1Q' target='_blank' > Rubner Group </a> - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/vert_001.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Giant Garden - The Children's Park" >
+        <img src="../../assets/images/progetti/expo/vert_002.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Drop by drop - The Children’s Park" >
+        <img src="../../assets/images/progetti/expo/vert_003.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Ring around trees - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/05.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Pedal power energy - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/Bici.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Aromatic bells - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/Campane.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Drop by Drop - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/goccia.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Drop by drop - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/Goccia-a-goccia.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Creative floor projection - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/Proiezioni.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Distorting mirrors - The Children’s Park">
+        <img src="../../assets/images/progetti/expo/specchi.jpg" />
+    </div>
+
+</div>
+
+<div id="gallery_dreamworks" style="display: none">
+
+    <div class="cycle-overlay"></div>
+
+    <div class="item" data-cycle-desc="Adventure hotel-Gardaland –Reception. Fiberglass books and hand painting." >
+        <img src="../../assets/images/progetti/favola/adventure-hotel01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Adventure hotel-Gardaland – Reception. Real wooden library, manually made looking older." >
+        <img src="../../assets/images/progetti/favola/adventure-hotel02.jpg" />
+    </div>
+	<div class="item" data-cycle-desc="ADVENTURE HOTEL. RECEPTION counter">
+        <img src="../../assets/images/progetti/favola/resturant01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Arabic Room-Adventure Led light detail." >
+        <img src="../../assets/images/progetti/favola/arabian01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Arabic Room-Adventure hotel. Drywall arches" >
+        <img src="../../assets/images/progetti/favola/arabian02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Arabic Room-Adventure hotel. Fiberglass panels and printed PVS" >
+        <img src="../../assets/images/progetti/favola/arabian03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Artic Room-Adventure hotel. Ice and snow made of fiberglass">
+        <img src="../../assets/images/progetti/favola/artic01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Artic Room-Adventure hotel. Fiberglass Stalactite." >
+        <img src="../../assets/images/progetti/favola/artic02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Artic Room-Adventure hotel. Some of the details are real imported objects (like reals snow shoes from canada)." >
+        <img src="../../assets/images/progetti/favola/artic03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Jungle Room-Adventure hotel. Real bamboo and concrete carved walls.">
+        <img src="../../assets/images/progetti/favola/jungle01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Jungle Room-Adventure hotel. The images on the walls are pictures made by images getting over each other’s.">
+        <img src="../../assets/images/progetti/favola/jungle02.jpg" />
+    </div>
+	<div class="item" data-cycle-desc="West Room-Adventure hotel. Wooden mold forniture.">
+        <img src="../../assets/images/progetti/favola/west01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="West room-Adventure hotel. Everything looking like wood is fiberglass.">
+        <img src="../../assets/images/progetti/favola/west02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Kung Fu Panda Academy.  Chi School">
+        <img src="../../assets/images/progetti/favola/kfpanda01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Kung Fu Panda Academy. Baskets and fruits are fiberglass made, the chariot is antiqued wood made">
+        <img src="../../assets/images/progetti/favola/kfpanda02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Carousel Kung fu panda Academy. Mr. Ping’s Noodle Surprise (ex. Kaffetassen).">
+        <img src="../../assets/images/progetti/favola/kfpanda03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Submarine – Entrance Adventure Hotel.  Structural construction">
+        <img src="../../assets/images/progetti/favola/submarine01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Sottomarino – Entrance Adventure Hotel.  External wood floor.">
+        <img src="../../assets/images/progetti/favola/submarine02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Sottomarino – Entrance Adventure Hotel. Pre painted sheets looking like wooden.">
+        <img src="../../assets/images/progetti/favola/submarine03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Restaurant Tutankhamon. Graven cement. Tatoo walls.">
+        <img src="../../assets/images/progetti/favola/tutankamon01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Restaurant Tutankhamon. Fiberglass columns">
+        <img src="../../assets/images/progetti/favola/tutankamon02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Restaurant Tutankhamon. Anubi statue is made of polystyrene and Resefin.">
+        <img src="../../assets/images/progetti/favola/tutankamon03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="ADVENTURE HOTEL.Tutankhamon Restaurant">
+        <img src="../../assets/images/progetti/favola/resturant02.jpg" />
+    </div>
+</div>
+        </div>
+    </section>
+    
+    
+
+
+<div id="contact-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="wrap">
+        <div class="cont">
+
+
+
+            <div class="grid-30 cont-text">
+                <h2>
+                    <span>Contact Us</span>
+                </h2>
+                <p class="responsive">
+                    Contact us for any informations.
+                </p>
+                <p class="text-simple">
+                    Take advantage of our professional support and rely on our experts with many-year know-how.
+                </p>
+
+                <a href="javascript:void(0);" id="backForm" class="no-link"><span>Back to form</span></a>
+
+
+            </div>
+            <div class="grid-60">
+                <form id="contactform" action="http://petas.it/thank-you" method="post">
+                    <div class="form-labels clearfix">
+
+                        <label for="contactperson" class="hidden"></label>
+                        <input type="text" data-name="contactperson" name="contactperson" required placeholder="Name and Surname *" />
+
+                        <label for="email" class="hidden"></label>
+                        <input type="email" data-name="email" name="email" required placeholder="Email *" />
+
+                        <label for="country" class="hidden"></label>
+                        <input type="text" data-name="country" name="country" required placeholder="City *" />
+
+                        <label for="phone" class="hidden"></label>
+                        <input type="text" data-name="telephone" name="telephone" required placeholder="Phone number *" />
+
+                        <label for="message" class="hidden"></label>
+                        <textarea rows="5" cols="40" data-name="message" placeholder="Your message" required name="message"></textarea>
+                        <input id="hidPrivacy" type="hidden" value="1" />
+                    </div>
+                    <div class="footer-form clearfix">
+
+                        <div class="checkbox-wrapper left">
+                            <input id="checkboxPrivacy" type="checkbox" name="privacy" data-name="checkbox" class="nl-privacy-check checkbox-field" required>
+                            <a id="privacyOpen" class="no-link left" href="javascript:void(0);"> I have read and I do accept privacy policy</a>
+                        </div>
+
+                        <div class="send-wrapper cont-text">
+                            <a id="lnkSend" href="javascript:void(0)" class="send no-link">
+                                <span>Send Request</span>
+                            </a>
+                            <span id="result"> EMAIL SENT CORRECTLY! </span>
+                        </div>
+                        <span id="required-fields">* Required fields</span>
+                    </div>
+                </form>
+                <div id="privacy_cont">
+                    <div id="privacy_overflow"></div>
+                    <div id="privacy_text">
+                        <div class="cont">
+                            <div class="cont-text text-center">
+
+                                <p> Privacy Policy </p><p class="text-simple">Personal details provided by filling in this form will be processed by Petas Srl with registered offices at Viale del Lavoro, 46
+37030 Colognola ai Colli (VR) - Italy, in such a way as to guarantee the security and confidentiality of the same, and in compliance with the requirements of the law governing privacy and the protection of personal data (Italian Legislative Decree 196/2003). Such data will be consulted and processed on paper or in electronic form in a controlled-access environment. Personal details may be distributed to relevant personnel within company for the following purposes: market research, promotions and commercial information, etc.. Your details may also be distributed by Petas Srl as process owner to other associated companies or third parties for the same purposes. The provision of your personal details is entirely voluntary, but failure to provide them will make it impossible for us to comply with your request for information. You may, at any time, request that your personal details be updated, modified, added to, or deleted in accordance with Article 7 of Italian Legislative Decree 196/2003, by sending an e-mail to the following address:</p>
+info@petas.it
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="gallery-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="slideshow">
+
+    </div>
+
+    <div class="nav-gallery">
+        <a href="javascript:void(0);" id="prev" class="no-link"><span></span></a>
+        <a href="javascript:void(0);" id="next" class="no-link"><span></span></a>
+    </div>
+</div>
+
+
+    
+
+<footer id="footer">
+    <div class="left-footer">© PETAS . P.IVA IT 03374880239 . REA 331154 </div>
+    <div class="right-footer">
+        <a href="javascript:void(0)" class="no-link open-overlay" data-overlay-id="contact">Contact Us</a>
+        <span>.</span>
+        <a href="http://www.aquest.it" target="_blank" class="no-link">CREDITS</a>
+    </div>
+</footer>
+
+    <script>var lang = 'en', view = 'progetti';</script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="../../assets/scripts/petas.min.js"></script>
+</body>
+
+</html>
+

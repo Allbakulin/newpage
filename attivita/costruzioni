@@ -1,0 +1,850 @@
+
+
+<!doctype html>
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="Petas significa servizio completo e innovativo che risponde in modo rapido e pianificato alle esigenze del cliente." /><meta name="keywords" content="attività" /><link href="../assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="../assets/scripts/vendor/modernizr.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-12562825-31', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+<title>
+	Attività | Petas
+</title></head>
+
+<body>
+
+    <header id="header">
+        
+
+
+<div class="buttons">
+	<a class="logo no-link" href="../index.html">
+        <span></span>
+    </a>
+    <button class="nav">
+        <span class="hamburger"></span>
+    </button>
+</div>
+
+<aside class="menu">
+    <div class="nav-slanted"></div>
+    <nav>
+        <ul>
+            <li class="mobile">
+                <a class="no-link" data-view="homepage" href="../index.html">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="progetti" href="../progetti/favola">
+                    <span>Progetti</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="attivita" href="costruzioni">
+                    <span>Attività</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="settori" href="../settori/retail">
+                    <span>Settori</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="azienda" href="../azienda/squadra">
+                    <span>Azienda</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="contact" href="../contatti">
+                    <span>Contatti</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nav-lang">
+    <a class="no-link" href="../index.html"> IT </a>
+    <a class="no-link" href="../en/index.html"> EN </a>
+  </div>
+</aside>
+
+
+<div id="nav-lat">
+    <div id="nav-attivita">
+        <a data-type="pages" data-view="attivita" href="costruzioni">Attività</a>
+    </div>
+    <div id="nav-settori">
+        <a data-type="pages" data-view="settori" href="../settori/retail">Settori</a>
+    </div>
+</div>
+
+
+<nav id="sidebar" role="navigation" aria-label="Quick Navigation">
+    <ol class="bar nav--bar">
+        <!--creato dinamicamente-->
+    </ol>
+</nav>
+    </header>
+
+    <section id="main">
+        <div id="container" class="container">
+            
+
+
+
+<article id="attivita_slider" class="slider--fullscreen scroller" data-base-href="/attivita">
+
+    <section class="slider__item" id="attivita0" data-path="/costruzioni">
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50 first">
+                    <div id="costruzioni" class="attivita-parallax parallax">
+                        <div class="layer" data-depth="0.10">
+                            <div id="layer-2" data-bg="/assets/images/attivita/costruzioni/002.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.30">
+                            <div id="layer-3" data-bg="/assets/images/attivita/costruzioni/003.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.25">
+                            <div id="layer-4" data-bg="/assets/images/attivita/costruzioni/004.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.20">
+                            <div id="layer-5" data-bg="/assets/images/attivita/costruzioni/005.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.15">
+                            <div id="layer-6" data-bg="/assets/images/attivita/costruzioni/006.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.05">
+                            <div id="layer-7" data-bg="/assets/images/attivita/costruzioni/007.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.40">
+                            <div id="layer-1" data-bg="/assets/images/attivita/costruzioni/001.png" class="gear"></div>
+                        </div>
+                    </div>
+
+                    <h2>
+                        <span>Costruzioni</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>
+                            È un’attività che richiede la presenza di professionisti competenti all’interno dell’azienda con diverse abilità.
+                        </p>
+                        <p class="text-simple">
+                            Una delle principali attività svolte dall’azienda comprende la costruzione declinata nei suoi vari aspetti. Questa, parte da un presupposto fondamentale quale la progettazione e la pianificazione precisa di tutti i passaggi che il progetto deve attraversare fino ad arrivare alla sua completa realizzazione.
+                        </p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="costruzioni"><span>progetti</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="attivita1" data-path="/finiture">
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50 grid-right">
+
+                    <div id="finiture" class="attivita-parallax parallax">
+
+                        <div class="layer" data-depth="0.10">
+                            <div id="layer-2" data-bg="/assets/images/attivita/finiture/02.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.15">
+                            <div id="layer-3" data-bg="/assets/images/attivita/finiture/03.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.20">
+                            <div id="layer-4" data-bg="/assets/images/attivita/finiture/04.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.25">
+                            <div id="layer-5" data-bg="/assets/images/attivita/finiture/05.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.13">
+                            <div id="layer-6" data-bg="/assets/images/attivita/finiture/06.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.17">
+                            <div id="layer-7" data-bg="/assets/images/attivita/finiture/07.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.05">
+                            <div id="layer-8" data-bg="/assets/images/attivita/finiture/08.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.40">
+                            <div id="layer-1" data-bg="/assets/images/attivita/finiture/01.png" class="gear"></div>
+                        </div>
+                    </div>
+
+                    <h2>
+                        <span>Finiture</span>
+                    </h2>
+                </div>
+                <div class="grid-50 grid-left">
+                    <div class="cont-text left-text">
+                        <p>
+                            L’azienda vanta professionisti che sono in grado di personalizzare e caratterizzare il progetto attraverso l’uso di materiali e strumenti all’avanguardia, restando comunque fedeli alla tradizione.
+                        </p>
+                        <p class="text-simple">
+                            Una delle caratteristiche principali di tutte le attività e, in particolar modo, parlando di finiture, è il tipo di approccio ai diversi progetti. Esso è sempre creativo in quanto l’obiettivo dei nostri professionisti è quello di non ricreare mai i medesimi prodotti ma caratterizzarli in modo personale.
+                        </p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="finiture"><span>progetti</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="slider__item" id="attivita2" data-path="/scenografia">
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50">
+
+                    <div id="scenografia" class="attivita-parallax parallax">
+                        <div class="layer" data-depth="0.05">
+                            <div id="layer-2" data-bg="/assets/images/attivita/scenografia/02.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.10">
+                            <div id="layer-3" data-bg="/assets/images/attivita/scenografia/03.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.15">
+                            <div id="layer-4" data-bg="/assets/images/attivita/scenografia/04.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.20">
+                            <div id="layer-5" data-bg="/assets/images/attivita/scenografia/05.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.30">
+                            <div id="layer-1" data-bg="/assets/images/attivita/scenografia/01.png" class="gear"></div>
+                        </div>
+                    </div>
+
+                    <h2>
+                        <span>Scenografia</span>
+                    </h2>
+                </div>
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>
+                            Il forte impegno dell’azienda in questa particolare attività comporta una progettazione e una realizzazione creativa di scenografie e impianti artistici innovativi soprattutto per quanto riguarda i parchi a tema.
+                        </p>
+                        <p class="text-simple">
+                            In questa specifica attività è fondamentale una ben studiata fase di progettazione per riuscire poi in un’esecuzione rapida ed efficace. Per rispondere al meglio alle richieste del cliente viene usata una varietà di materiali e tecnologie preposte alla realizzazione di diverse parti della costruzione.
+                        </p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="scenografia"><span>progetti</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="attivita3" data-path="/impianti-elettrici">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+
+                    <div id="elettrici" class="attivita-parallax parallax">
+                        <div class="layer" data-depth="0.10">
+                            <div id="layer-2" data-bg="/assets/images/attivita/elettrici/05.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.15">
+                            <div id="layer-3" data-bg="/assets/images/attivita/elettrici/04.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.20">
+                            <div id="layer-4" data-bg="/assets/images/attivita/elettrici/03.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.05">
+                            <div id="layer-5" data-bg="/assets/images/attivita/elettrici/02.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.30">
+                            <div id="layer-1" data-bg="/assets/images/attivita/elettrici/01.png" class="gear"></div>
+                        </div>
+                    </div>
+
+                    <h2>
+                        <span>Impianti elettrici</span><span> e tecnologici</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50 grid-left">
+                    <div class="cont-text left-text">
+                        <p>Per ottenere un servizio completo, l’ufficio tecnico coordina l’attività di impiantistica elettrica e tecnologica che viene offerta in diversi settori di produzione.</p>
+                        <p class="text-simple">Tutte le diverse attività vengono coordinate in parallelo proprio perché, pur riferendosi a diversi settori di lavorazione, vedono la presenza di dipendenti interni la cui attività viene gestita da un solo ufficio per rendere connesso l’intero processo di produzione.</p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="elettrici"><span>progetti</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider__item" id="attivita4" data-path="/impianti-termoidraulici">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+
+                    <div id="termoidraulici" class="attivita-parallax parallax">
+                        <div class="layer" data-depth="0.10">
+                            <div id="layer-2" data-bg="/assets/images/attivita/termoidraulici/05.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.15">
+                            <div id="layer-3" data-bg="/assets/images/attivita/termoidraulici/04.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.20">
+                            <div id="layer-4" data-bg="/assets/images/attivita/termoidraulici/03.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.13">
+                            <div id="layer-5" data-bg="/assets/images/attivita/termoidraulici/02.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.30">
+                            <div id="layer-1" data-bg="/assets/images/attivita/termoidraulici/01.png" class="gear"></div>
+                        </div>
+                    </div>
+
+                    <h2>
+                        <span> Impianti </span> <span>termoidraulici </span>
+                    </h2>
+                </div>
+
+                 <div class="grid-50 grid-left">
+                    <div class="cont-text left-text">
+                        <p>La competenza in tale campo ci permette di costruire e offrire manutenzione per quanto riguarda opere idriche, sanitarie, termiche e di climatizzazione.</p>
+                        <p class="text-simple">Per offrire una prestazione completa a 360 gradi, la nostra azienda progetta e realizza servizi su misura per garantire, fin dall’inizio, una riuscita ottimale del progetto. Grazie all’organizzazione delle diverse mansioni lavorative, tutte le parti strutturali vengono pianificate al meglio.</p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="termoidraulici"><span>progetti</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="slider__item" id="attivita5" data-path="/carpenteria">
+
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50">
+                    <div id="carpenteria" class="attivita-parallax parallax">
+                        <div class="layer" data-depth="0.10">
+                            <div id="layer-2" data-bg="/assets/images/attivita/carpenteria/05.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.15">
+                            <div id="layer-3" data-bg="/assets/images/attivita/carpenteria/04.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.20">
+                            <div id="layer-4" data-bg="/assets/images/attivita/carpenteria/03.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.13">
+                            <div id="layer-5" data-bg="/assets/images/attivita/carpenteria/02.png" class="gear"></div>
+                        </div>
+                        <div class="layer" data-depth="0.30">
+                            <div id="layer-1" data-bg="/assets/images/attivita/carpenteria/01.png" class="gear"></div>
+                        </div>
+                    </div>
+
+                    <h2>
+                        <span>Carpenteria</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>Utilizzando diversi materiali e le più innovative tecnologie, i nostri professionisti sono in grado di far fronte a diverse tipologie di costruzione.</p>
+                        <p class="text-simple">Tenendo in considerazione che lo sviluppo di un progetto inizia sempre dalla sua progettazione, l’organizzazione dei lavoratori interni diretti avviene tramite la coordinazione dei diversi uffici tecnici. I materiali e gli strumenti utilizzati rispondono idoneamente alle più avanzate necessità.</p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="carpenteria"><span>progetti</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="gallery_scenografia" style="display: none">
+        <div class="cycle-overlay"></div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie1.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie2.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie3.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie4.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie5.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie6.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie7.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie8.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone Realizzazione attrazioni">
+            <img src="../assets/images/attivita/scenografia/scenografie9.jpg" />
+        </div>
+    </div>
+
+    <div id="gallery_carpenteria" style="display: none">
+        <div class="cycle-overlay"></div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria1.jpg">
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria2.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria3.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria4.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria5.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria6.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria7.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Parco Raimboiw magic land Valmontone – realizzazione attrazioni">
+            <img src="../assets/images/attivita/carpenteria/carpenteria8.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - dettaglio carpenteria">
+            <img src="../assets/images/attivita/carpenteria/1-terme.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - dettaglio carpenteria">
+            <img src="../assets/images/attivita/carpenteria/2-terme.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio carpenteria">
+            <img src="../assets/images/attivita/carpenteria/3-banco.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio carpenteria">
+            <img src="../assets/images/attivita/carpenteria/4-banco.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio carpenteria">
+            <img src="../assets/images/attivita/carpenteria/5-banco.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio carpenteria">
+            <img src="../assets/images/attivita/carpenteria/6-banco.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio carpenteria">
+            <img src="../assets/images/attivita/carpenteria/7-banco.jpg" />
+        </div>
+    </div>
+
+    <div id="gallery_costruzioni" style="display: none">
+        <div class="cycle-overlay"></div>
+        <div class="item" data-cycle-desc="Expo  2015- Realizzazione Padiglione Moldavia">
+            <img src="../assets/images/attivita/costruzioni/Moldavia-1.jpg">
+        </div>
+        <div class="item" data-cycle-desc="Expo  2015- Realizzazione Padiglione Moldavia">
+            <img src="../assets/images/attivita/costruzioni/Moldavia-2.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Expo  2015- Realizzazione Padiglione Moldavia">
+            <img src="../assets/images/attivita/costruzioni/Moldavia-3.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Expo  2015- Realizzazione Padiglione Moldavia">
+            <img src="../assets/images/attivita/costruzioni/Moldavia-4.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Quinto di Valpantena – Verona Realizzazione Palestra">
+            <img src="../assets/images/attivita/costruzioni/Pala-1.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Quinto di Valpantena – Verona Realizzazione Palestra">
+            <img src="../assets/images/attivita/costruzioni/Pala-2.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Quinto di Valpantena – Verona Realizzazione Palestra">
+            <img src="../assets/images/attivita/costruzioni/Pala-3.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Quinto di Valpantena – Verona Realizzazione Palestra">
+            <img src="../assets/images/attivita/costruzioni/Pala-4.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Quinto di Valpantena – Verona Realizzazione Palestra">
+            <img src="../assets/images/attivita/costruzioni/Pala-5.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Piscina di Caldiero">
+            <img src="../assets/images/attivita/costruzioni/terme-caldiero.jpg">
+        </div>
+    </div>
+
+    <div id="gallery_elettrici" style="display: none">
+        <div class="cycle-overlay"></div>
+
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - impianto luci">
+            <img src="../assets/images/attivita/elettrici/10.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio impianto elettrico">
+            <img src="../assets/images/attivita/elettrici/11.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio">
+            <img src="../assets/images/attivita/elettrici/09.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Sede Petas - dettaglio">
+            <img src="../assets/images/attivita/elettrici/07.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Sede Petas - dettaglio luci">
+            <img src="../assets/images/attivita/elettrici/08.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Reale Mutua Verona Impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/BancaRealeVr_044.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Reale Mutua Verona Impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/BancaRealeVr_075.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Reale Mutua Verona Impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/BancaRealeVr_029.jpg">
+        </div>
+        <div class="item" data-cycle-desc="Dhl Express srl – realizzazione impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/Dhl_MI-42.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Dhl Express srl – realizzazione impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/Dhl_MI-15.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Dhl Express srl – realizzazione impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/Dhl_MI-36.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Expo 2015 Padiglione Moldavia – impianto elettrico ed illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/ExpoMoldavia2&#32;MI-26.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Expo 2015 Padiglione Moldavia – impianto elettrico ed illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/ExpoMoldavia2&#32;MI-39.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Expo 2015 Padiglione Moldavia – impianto elettrico ed illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/ExpoMoldavia2&#32;MI-40.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Intimissimi impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/IntimissimiTo-16.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Intimissimi impianto illuminotecnico">
+            <img src="../assets/images/attivita/elettrici/IntimissimiTo-15.jpg" />
+        </div>
+    </div>
+
+    <div id="gallery_finiture" style="display: none">
+        <div class="cycle-overlay"></div>
+        <div class="item" data-cycle-desc="Dhl Express srl Milano Realizzazione reception">
+            <img src="../assets/images/attivita/finiture/Dhl_MI-14.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Dhl Express srl Milano Realizzazione reception">
+            <img src="../assets/images/attivita/finiture/Dhl_MI-05.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Dhl Express srl Milano Realizzazione reception">
+            <img src="../assets/images/attivita/finiture/Dhl_MI-45.jpg" />
+        </div>
+
+        <div class="item" data-cycle-desc="Immobile Via Temolo - ristrutturazione">
+            <img src="../assets/images/attivita/finiture/viatemolo-01.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Immobile Via Temolo - ristrutturazione">
+            <img src="../assets/images/attivita/finiture/viatemolo-02.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Immobile Via Temolo - ristrutturazione">
+            <img src="../assets/images/attivita/finiture/viatemolo-03.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Reale Mutua Verona Ristrutturazione filiale">
+            <img src="../assets/images/attivita/finiture/BancaRealeVr_018.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Reale Mutua Verona Ristrutturazione filiale">
+            <img src="../assets/images/attivita/finiture/BancaRealeVr_085.jpg" />
+        </div>
+
+        <div class="item" data-cycle-desc="Expo Children Park : Periscopio">
+            <img src="../assets/images/attivita/finiture/ExpoChildrenpark2_MI-17.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Intimissimi Torino">
+            <img src="../assets/images/attivita/finiture/IntimissimiTo-14.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Intimissimi Torino">
+            <img src="../assets/images/attivita/finiture/IntimissimiTo-26.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Intimissimi Torino">
+            <img src="../assets/images/attivita/finiture/IntimissimiTo-31.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Intimissimi Torino">
+            <img src="../assets/images/attivita/finiture/IntimissimiTo-48.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Intimissimi Torino">
+            <img src="../assets/images/attivita/finiture/IntimissimiTo-56.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - dettaglio pavimentazione">
+            <img src="../assets/images/attivita/finiture/09.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - finiture">
+            <img src="../assets/images/attivita/finiture/10.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - dettaglio">
+            <img src="../assets/images/attivita/finiture/11.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - dettaglio piscina">
+            <img src="../assets/images/attivita/finiture/12.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio">
+            <img src="../assets/images/attivita/finiture/13.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - pavimentazione">
+            <img src="../assets/images/attivita/finiture/14.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - dettaglio">
+            <img src="../assets/images/attivita/finiture/15.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - finitura impianto">
+            <img src="../assets/images/attivita/finiture/16.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Banco Popolare Maranello e Fiorano - lucernario">
+            <img src="../assets/images/attivita/finiture/17.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Gardaland Realizzazione mobili espositivi">
+            <img src="../assets/images/attivita/finiture/AdventureStoreVR-05.jpg">
+        </div>
+        <div class="item" data-cycle-desc="Gardaland Realizzazione mobili espositivi">
+            <img src="../assets/images/attivita/finiture/AdventureStoreVR-16.jpg" />
+        </div>
+    </div>
+
+    <div id="gallery_termoidraulici" style="display: none">
+        <div class="cycle-overlay"></div>
+        <div class="item" data-cycle-desc="ExPO 2015 Children Park Energia a pedali">
+            <img src="../assets/images/attivita/termoidraulici/Bici.jpg">
+        </div>
+        <div class="item" data-cycle-desc="ExPO 2015 Children Park Energia a pedali">
+            <img src="../assets/images/attivita/termoidraulici/Dettaglio-bici.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Expo 2015 Children Park impianto nebulizzazione">
+            <img src="../assets/images/attivita/termoidraulici/Drop.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Expo 2015 Children Park impianto irrigazione">
+            <img src="../assets/images/attivita/termoidraulici/Plant.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - piscina">
+            <img src="../assets/images/attivita/termoidraulici/06.jpg">
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - dettaglio">
+            <img src="../assets/images/attivita/termoidraulici/07.jpg" />
+        </div>
+        <div class="item" data-cycle-desc="Terme di Caldiero - dettaglio impianto">
+            <img src="../assets/images/attivita/termoidraulici/08.jpg" />
+        </div>
+    </div>
+
+
+    <div id="nav-counter" class="left-position">
+        <div class="current-count">
+            <span></span>
+        </div>
+        <div class="sep-count"> / </div>
+        <div class="total-count">
+            <span></span>
+        </div>
+    </div>
+
+</article>
+
+
+
+
+        </div>
+    </section>
+    
+    
+
+
+<div id="contact-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="wrap">
+        <div class="cont">
+
+
+
+            <div class="grid-30 cont-text">
+                <h2>
+                    <span>Contattaci</span>
+                </h2>
+                <p class="responsive">
+                    Contattaci per maggiori informazioni.
+                </p>
+                <p class="text-simple">
+                    Usufruisci del nostro supporto nella pianificazione e progettazione integrata di servizi e del nostro know how.
+                </p>
+
+                <a href="javascript:void(0);" id="backForm" class="no-link"><span>Torna al form</span></a>
+
+
+            </div>
+            <div class="grid-60">
+                <form id="contactform" action="http://petas.it/thank-you" method="post">
+                    <div class="form-labels clearfix">
+
+                        <label for="contactperson" class="hidden"></label>
+                        <input type="text" data-name="contactperson" name="contactperson" required placeholder="Nome e Cognome *" />
+
+                        <label for="email" class="hidden"></label>
+                        <input type="email" data-name="email" name="email" required placeholder="Email *" />
+
+                        <label for="country" class="hidden"></label>
+                        <input type="text" data-name="country" name="country" required placeholder="Città *" />
+
+                        <label for="phone" class="hidden"></label>
+                        <input type="text" data-name="telephone" name="telephone" required placeholder="Telefono *" />
+
+                        <label for="message" class="hidden"></label>
+                        <textarea rows="5" cols="40" data-name="message" placeholder="Richiesta" required name="message"></textarea>
+                        <input id="hidPrivacy" type="hidden" value="1" />
+                    </div>
+                    <div class="footer-form clearfix">
+
+                        <div class="checkbox-wrapper left">
+                            <input id="checkboxPrivacy" type="checkbox" name="privacy" data-name="checkbox" class="nl-privacy-check checkbox-field" required>
+                            <a id="privacyOpen" class="no-link left" href="javascript:void(0);"> Accetta l'informativa sulla privacy</a>
+                        </div>
+
+                        <div class="send-wrapper cont-text">
+                            <a id="lnkSend" href="javascript:void(0)" class="send no-link">
+                                <span>Invia richiesta</span>
+                            </a>
+                            <span id="result"> EMAIL INVIATA CORRETTAMENTE </span>
+                        </div>
+                        <span id="required-fields">* campi richiesti</span>
+                    </div>
+                </form>
+                <div id="privacy_cont">
+                    <div id="privacy_overflow"></div>
+                    <div id="privacy_text">
+                        <div class="cont">
+                            <div class="cont-text text-center">
+
+                                <p>Privacy policy</p>
+
+                                <p class="text-simple">In questa pagina si descrivono le modalità di gestione del sito www.petas.it in riferimento al trattamento dei dati personali degli utenti che lo consultano. Il presente documento è stato redatto sulla falsariga dell'analogo documento presente sul sito del Garante della Privacy in data 16/08/2006 e modificato ed integrato secondo le specifiche necessità.</p>
+
+                                <p class="text-simple">Si tratta di un'informativa che è resa anche ai sensi dell'art. 13 del d.lgs. n. 196/2003 - Codice in materia di protezione dei dati personali - a coloro che interagiscono con i servizi web di Petas S.r.l. - P.IVA: IT03374880239 , accessibili per via telematica a partire dall'indirizzo:
+                                </p>
+
+                                <br>
+                                <p class="text-simple"> http://www.petas.it </p>
+                                <br>
+
+                                <p class="text-simple">corrispondente alla pagina iniziale del sito ufficiale della società Petas S.r.l.<p class="text-simple">
+
+                                <p class="text-simple">L'informativa è resa solo per il sito di Petas S.r.l., e non anche per altri siti web eventualmente consultati dall'utente tramite link.<p class="text-simple">
+
+                                <p class="text-simple">L'informativa si ispira anche alla Raccomandazione n. 2/2001 che le autorità europee per la protezione dei dati personali, riunite nel Gruppo istituito dall'art. 29 della direttiva n. 95/46/CE, hanno adottato il 17 maggio 2001 per individuare alcuni requisiti minimi per la raccolta di dati personali on-line, e, in particolare, le modalità, i tempi e la natura delle informazioni che i titolari del trattamento devono fornire agli utenti quando questi si collegano a pagine web, indipendentemente dagli scopi del collegamento.</p>
+
+                                <p>Il "Titolare" del trattamento</p>
+                                <p class="text-simple">A seguito della consultazione di questo sito possono essere trattati dati relativi a persone identificate o identificabili.<p class="text-simple">
+
+                                <p class="text-simple">Il "titolare" del loro trattamento è  Petas s.r.l., che ha sede in Viale del Lavoro, 19B8 - 37030 Colognola Ai Colli - VR (ITALIA).<p class="text-simple">
+
+                                <p>Luogo di trattamento dei dati</p>
+                                <p class="text-simple">I trattamenti connessi ai servizi web di questo sito hanno luogo presso la predetta sede di Petas S.r.l. e sono curati solo da personale tecnico dell’Ufficio incaricato del trattamento, oppure da eventuali incaricati interni di occasionali operazioni di manutenzione.</p>
+
+                                <p class="text-simple">Nessun dato derivante dal servizio web viene comunicato o diffuso, se non per operazioni strettamente legate all'oggetto della richiesta dell'utente.</p>
+
+                                <p class="text-simple">I dati personali forniti dagli utenti che inoltrano richieste di invio di materiale informativo (contratti, schede commerciali, informazioni in generale, Cd-rom, newsletter, risposte a quesiti, ecc.) sono utilizzati al solo fine di eseguire il servizio o la prestazione richiesta e sono comunicati a terzi nel solo caso in cui ciò sia a tal fine necessario (servizio di spedizione di materiale informativo, registrazione di nomi a dominio, ecc...).</p>
+
+                                <p>Tipi di dati trattati</p>
+
+                                <p>A. Dati di navigazione</p>
+                                <p class="text-simple">I sistemi informatici e le procedure software preposte al funzionamento di questo sito web acquisiscono, nel corso del loro normale esercizio, alcuni dati personali la cui trasmissione è implicita nell’uso dei protocolli di comunicazione di Internet.</p>
+
+                                <p class="text-simple">Si tratta di informazioni che non sono raccolte per essere associate a interessati identificati, ma che per loro stessa natura potrebbero, attraverso elaborazioni ed associazioni con dati detenuti da terzi, permettere di identificare gli utenti.</p>
+
+                                <p class="text-simple">In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computer utilizzati dagli utenti che si connettono al sito, gli indirizzi in notazione URI (Uniform Resource Identifier) delle risorse richieste, l’orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server, la dimensione del file ottenuto in risposta, il codice numerico indicante lo stato della risposta data dal server (buon fine, errore, ecc.) ed altri parametri relativi al sistema operativo e all’ambiente informatico dell’utente.</p>
+
+                                <p class="text-simple">Questi dati vengono utilizzati al solo fine di ricavare informazioni statistiche anonime sull’uso del sito e per controllarne il corretto funzionamento e vengono conservati per il tempo necessario secondo quanto indicato dalla Legge. I dati potrebbero essere utilizzati per l’accertamento di responsabilità in caso di ipotetici reati informatici ai danni del sito.</p>
+
+                                <p>B. Dati forniti volontariamente dall’utente</p>
+                                <p class="text-simple">L’invio facoltativo, esplicito e volontario di posta elettronica agli indirizzi indicati su questo sito comporta la successiva acquisizione dell’indirizzo del mittente, necessario per rispondere alle richieste, nonché degli eventuali altri dati personali inseriti nella missiva.</p>
+
+                                <p class="text-simple">Specifiche informative di sintesi verranno progressivamente riportate o visualizzate nelle pagine del sito predisposte per particolari servizi a richiesta.</p>
+
+                                <p>C. Cookies</p>
+                                <p class="text-simple">Nessun dato personale degli utenti viene in proposito acquisito dal sito.</p>
+
+                                <p class="text-simple">Non viene fatto uso di cookies per la trasmissione di informazioni di carattere personale, né vengono utilizzati c.d. cookies persistenti di alcun tipo, ovvero sistemi per il tracciamento degli utenti.</p>
+
+                                <p class="text-simple">L’uso di c.d. cookies di sessione (che non vengono memorizzati in modo persistente sul computer dell’utente e svaniscono con la chiusura del browser) è strettamente limitato alla trasmissione di identificativi di sessione (costituiti da numeri casuali generati dal server) necessari per consentire l’esplorazione sicura ed efficiente del sito.</p>
+
+                                <p class="text-simple">I c.d. cookies di sessione utilizzati in questo sito evitano il ricorso ad altre tecniche informatiche potenzialmente pregiudizievoli per la riservatezza della navigazione degli utenti e non consentono l’acquisizione di dati personali identificativi dell’utente.</p>
+
+                                <p>Facoltatività del conferimento dei dati</p>
+                                <p class="text-simple">A parte quanto specificato per i dati di navigazione, l’utente è libero di fornire i dati personali riportati nei moduli di richiesta presenti nel sito o comunque indicati in contatti con l'Ufficio per sollecitare l’invio di materiale informativo o di altre comunicazioni.</p>
+
+                                <p class="text-simple">Il loro mancato conferimento può comportare l’impossibilità di ottenere quanto richiesto.</p>
+
+                                <p class="text-simple">Per completezza va ricordato che in alcuni casi (non oggetto dell’ordinaria gestione di questo sito) l’Autorità può richiedere notizie e informazioni ai sensi dell'art 157 del d.lgs. n. 196/2003, ai fini del controllo sul trattamento dei dati personali. In questi casi la risposta è obbligatoria a pena di sanzione amministrativa.</p>
+
+                                <p>Modalità del trattamento
+                                I dati personali sono trattati con strumenti automatizzati per il tempo strettamente necessario a conseguire gli scopi per cui sono stati raccolti.</p>
+
+                                <p class="text-simple">Specifiche misure di sicurezza sono osservate per prevenire la perdita dei dati, usi illeciti o non corretti ed accessi non autorizzati.</p>
+
+                                <p>Diritti degli interessati</p>
+                                <p class="text-simple">I soggetti cui si riferiscono i dati personali hanno il diritto in qualunque momento di ottenere la conferma dell’esistenza o meno dei medesimi dati e di conoscerne il contenuto e l’origine, verificarne l’esattezza o chiederne l’integrazione o l’aggiornamento, oppure la rettificazione (art. 7 del d.lgs. n. 196/2003).</p>
+
+                                <p class="text-simple">Ai sensi del medesimo articolo si ha il diritto di chiedere la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, nonché di opporsi in ogni caso, per motivi legittimi, al loro trattamento.</p>
+
+                                <p class="text-simple">Le richieste vanno rivolte a Petas S.r.l..</p>
+
+                                <p>Precisazioni</p>
+                                <p class="text-simple">Si precisa che il presente documento, pubblicato all’indirizzo http://www.petas.it/privacy.cfm, costituisce la "Privacy Policy" di questo sito che sarà soggetta ad aggiornamenti.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="gallery-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="slideshow">
+
+    </div>
+
+    <div class="nav-gallery">
+        <a href="javascript:void(0);" id="prev" class="no-link"><span></span></a>
+        <a href="javascript:void(0);" id="next" class="no-link"><span></span></a>
+    </div>
+</div>
+
+
+    
+
+<footer id="footer">
+    <div class="left-footer">© PETAS . P.IVA IT 03374880239 . REA 331154 </div>
+    <div class="right-footer">
+        <a href="javascript:void(0)" class="no-link open-overlay" data-overlay-id="contact">Contattaci</a>
+        <span>.</span>
+        <a href="http://www.aquest.it" target="_blank" class="no-link">CREDITS</a>
+    </div>
+</footer>
+
+    <script>var lang = 'it', view = 'attivita';</script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="../assets/scripts/petas.min.js"></script>
+</body>
+
+</html>
+

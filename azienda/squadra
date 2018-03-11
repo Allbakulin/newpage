@@ -2,12 +2,9 @@
 
 <!doctype html>
 <html lang="en">
-<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="Petas è Facility Management e non solo: carpenteria, impianti, progettazione e finiture" /><link href="assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="" /><link href="../assets/styles/style.min.css" rel="stylesheet" type="text/css" />
 
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Jura|PT+Mono|Russo+One" rel="stylesheet">
-
-
-    <script src="assets/scripts/vendor/modernizr.min.js"></script>
+    <script src="../assets/scripts/vendor/modernizr.min.js"></script>
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -23,7 +20,7 @@
     </script>
 
 <title>
-	Facility Management | Petas
+	Azienda | Petas
 </title></head>
 
 <body>
@@ -33,7 +30,7 @@
 
 
 <div class="buttons">
-	<a class="logo no-link" href="index.html">
+	<a class="logo no-link" href="../index.html">
         <span></span>
     </a>
     <button class="nav">
@@ -46,50 +43,50 @@
     <nav>
         <ul>
             <li class="mobile">
-                <a class="no-link" data-view="homepage" href="index.html">
+                <a class="no-link" data-view="homepage" href="../index.html">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="progetti" href="progetti/favola">
+                <a data-type="pages" data-view="progetti" href="../progetti/favola">
                     <span>Progetti</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="attivita" href="attivita/costruzioni">
+                <a data-type="pages" data-view="attivita" href="../attivita/costruzioni">
                     <span>Attività</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="settori" href="settori/retail">
+                <a data-type="pages" data-view="settori" href="../settori/retail">
                     <span>Settori</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="azienda" href="azienda/squadra">
+                <a data-type="pages" data-view="azienda" href="squadra">
                     <span>Azienda</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="contact" href="contatti">
+                <a data-type="pages" data-view="contact" href="../contatti">
                     <span>Contatti</span>
                 </a>
             </li>
         </ul>
     </nav>
     <div class="nav-lang">
-    <a class="no-link" href="index.html"> IT </a>
-    <a class="no-link" href="en/index.html"> EN </a>
+    <a class="no-link" href="../index.html"> IT </a>
+    <a class="no-link" href="../en/index.html"> EN </a>
   </div>
 </aside>
 
 
 <div id="nav-lat">
     <div id="nav-attivita">
-        <a data-type="pages" data-view="attivita" href="attivita/costruzioni">Attività</a>
+        <a data-type="pages" data-view="attivita" href="../attivita/costruzioni">Attività</a>
     </div>
     <div id="nav-settori">
-        <a data-type="pages" data-view="settori" href="settori/retail">Settori</a>
+        <a data-type="pages" data-view="settori" href="../settori/retail">Settori</a>
     </div>
 </div>
 
@@ -105,103 +102,182 @@
         <div id="container" class="container">
             
 
-<article class="slider--fullscreen scroller" data-base-href="">
 
-    
 
-    <section class="slider__item" id="home1" data-idx="1" data-path="/home">
+<article id="about_slider" class="slider--fullscreen scroller" data-base-href="/azienda">
+
+
+    <section class="slider__item" id="azienda0" data-path="/squadra">
         <div class="wrap">
             <div class="cont">
-                <div id="home-parallax" class="parallax">
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer10" class="gear"></div>
+                <div class="grid-50 first">
+                    <div class="mask-rect mask-rect--left">
+                        <img class="clipped" src="../assets/images/azienda/squadra-azienda.jpg" />
                     </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer9" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer8" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer7" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer6" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer5" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer4" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.23">
-                        <div id="home-layer3" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.20">
-                        <div id="home-layer2" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.30">
-                        <div id="home-layer1" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.40">
-                        <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-	top: 90%;
-">
-                            <span>РЕМОНТ</span>
-                            <span>КВАРТИР</span>
-                        </h2>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="slider__item" id="home2" data-idx="2" data-path="/attivita">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50 grid-right">
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
+                    <h2>
+                        <span>La nostra</span><span>squadra</span>
                     </h2>
                 </div>
-                <div class="grid-50 grid-left">
-                    <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>
+                            La capacità di studiare processi adeguati, sviluppare progetti innovativi e instaurare relazioni solide con società e persone, ci ha permesso di perseguire sempre con coraggio i nostri obiettivi.
                         </p>
-                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>подробнее</span></a>
+                        <p class="text-simple">
+                            Crediamo che la motivazione sia un elemento fondamentale per istituire una struttura interna solida costituita da protagonisti interni all’azienda che credano negli stessi obiettivi. La presenza di diverse competenze e capacità ci ha permesso di crescere sia da un punto di vista numerico che umano, ritenendo quest’ultimo indispensabile. È necessario, infatti, prendersi cura delle relazioni che si instaurano in azienda mirando sempre a raggiungere gli obiettivi comuni. E per fare questo, è essenziale crederci.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="slider__item" id="home3"  data-idx="3" data-path="/settori">
+    <section class="slider__item" id="azienda2" data-path="/mission">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50">
+                    <div class="cont-text left-text">
+                        <p class="text-simple">
+                            Da sempre abbiamo dato importanza alla capacità di trasmettere il know-how dell’azienda e le modalità d’approccio alle diverse attività in modo chiaro e professionale. L’abilità di comunicare appropriatamente gli obiettivi da raggiungere attraverso l’esempio, esponendosi in prima persona, è indispensabile per incentivare il lavoro collaborativo di squadra.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-50">
+                    <div class="mask-rect mask-rect--right">
+                        <img class="clipped" src="../assets/images/azienda/cards.jpg" />
+                    </div>
+                    <h2 class="small-title">
+                        <span>Mission</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="azienda3" data-path="/filosofia">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50">
+                    <h2>
+                        <span>La nostra</span><span>filosofia</span>
+                    </h2>
+                    <div class="cont-text left-text">
+                        <p>
+                           Crediamo nell’innovazione come motore trainante di tutto il processo produttivo, dalla pianificazione all’esecuzione vera e propria.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="grid-50">
+                   <div class="cont-text right-text">
+                        <p class="text-simple">
+                           Sia per quanto riguarda i prodotti che le capacità messe in campo da ognuno, è fondamentale saper anticipare i tempi e le esigenze diverse di ogni cliente che ha bisogno di interfacciarsi con un unico interlocutore e semplificare l’intero processo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="certificati" data-path="/certificati">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+                    <div class="mask-rect mask-rect--right">
+                        <img class="clipped" src="../assets/images/azienda/certificati.jpg" />
+                    </div>
+                    <h2>
+                        <span>I nostri</span><span>certificati</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50 grid-left">
+                   <div class="cont-text left-text">
+                        <p>
+                            Certificati
+                        </p>
+                        <br><br>
+                        <div class="item-p">
+                            <strong>ATTESTAZIONE CQOP SOA</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>ISO 9001:2008</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>ISO 14001:2004</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>BS OHSAS 18001: 2007</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>SA 8000:2008</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>F- GAS: REGOLAMENTO CE 303/2008</strong>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="no-link" href="../assets/politica-aziendale.pdf" target="_blank"> <span>Politica Aziendale</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="azienda4" data-path="/sociale">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+                    <div class="mask-rect mask-rect--right">
+                        <img class="clipped" src="../assets/images/azienda/sociale.jpg" />
+                    </div>
+                    <h2>
+                        <span>Petas per</span><span>il sociale</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50 grid-left">
+                   <div class="cont-text left-text">
+                        <p>
+                            I nostri progetti
+                        </p>
+                        <p class="text-simple">
+                            L’azienda, da anni, finanzia e sostiene progetti nazionali e internazionali.
+
+                        </p>
+                        <p class="text-simple">
+                        In collaborazione con la fondazione Regina Pacis, abbiamo realizzato un'abitazione assistita per giovani orfani o senza sostegno familiare che abbiano da poco raggiunto la maggiore età, allo scopo di erogare servizi educativi e psicosociali e per l'orientamento professionale. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="azienda5" data-path="/sponsor">
         <div class="wrap">
             <div class="cont">
                 <div class="grid-50">
                     <div class="mask-rect mask-rect--left">
-                        <img class="clipped" src="assets/images/home/settori.jpg" />
+                        <img class="clipped" src="../assets/images/azienda/bluvolley_hellas.png" />
                     </div>
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
-                    </h2>	
                 </div>
                 <div class="grid-50">
-                    <div class="cont-text right-text">
-                        <p style="font-weight: bold;">
-                            Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
+                   <div class="cont-text right-text">
+                        <p>
+                            Sponsorizzazioni
                         </p>
-                        <a data-type="pages" data-view="settori" href="settori.1" ><span>подробнее</span></a>
+                        <p class="text-simple">
+                            Crediamo che lo sport rappresenti un momento formativo nella vita di ognuno. Per questo la nostra azienda sponsorizza diverse società sportive.
+                        </p>
+                        <p class="text-simple">
+                           Siamo presenti allo stadio Bentegodi e durante le partite della Nazionale Italiana, siamo sponsor della Calzedonia Volley Bluvolley.
+                        </p>
+                        <br/>
                     </div>
                 </div>
 
@@ -209,85 +285,7 @@
         </div>
     </section>
 
-    <section class="slider__item" id="home4" data-path="/azienda">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50 grid-right">
-                    <div class="mask-rect mask-rect--right">
-                       <img class="clipped" src="assets/images/home/azienda-front.jpg" />
-                    </div>
 
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
-                    </h2>
-                </div>
-                <div class="grid-50 grid-left">
-                    <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="azienda" href="squadra" ><span>калькуляьтор</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="slider__item" id="home5" data-path="/contatti">
-        <div class="wrap">
-            <div class="cont">
-
-                <div class="grid-50">
-                    <h2><span>Contatti</span></h2>
-                    <div class="cont-text left-text">
-                        <p class="text-simple">Se desideri ricevere maggiori informazioni riguardo la nostra struttura o i nostri servizi,
-    contattaci utilizzando la form cliccando sul link sottostante.</p>
-                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="contact"><span>Contattaci</span></a>
-                    </div>
-                </div>
-                <div class="grid-50">
-                    <div class="cont-text right-text no-style">
-                        <div class="contact-num">
-                            <span class="label">tel</span>
-                            <a class="no-link" href="tel:0456152399">
-                                <span class="small-nr">+39</span>
-                                <span class="big-nr">045 615 23 99</span>
-                            </a>
-                        </div>
-                        <div class="contact-num">
-                            <span class="label">fax</span>
-                            <span class="small-nr">+39</span>
-                            <span class="big-nr">045 617 03 69</span>
-                        </div>
-
-                        <p class="text-simple address">
-                         Viale del Lavoro, 46 <br/>
-                         37030 Colognola ai Colli (VR)
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Viale+del+Lavoro,+46,+37030+Str%C3%A0-Montanara-Pieve+VR/@45.422955,11.1515229,17z/data=!3m1!4b1!4m2!3m1!1s0x477f5cb06fc2ab2d:0x8290c9818469dd48" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Corso Venezia 8, <br/>
-                         20121, Milano
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Corso+Venezia,+8,+20121+Milano/@45.4678024,9.1964533,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c6bac329751d:0x7b794a05c536943d!8m2!3d45.4677987!4d9.198642" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Via Flaminia 42/B  <br/>
-                         06031 Bevagna, Perugia
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Via+Flaminia,+42,+06031+Bevagna+PG/@42.9384259,12.6210433,17z/data=!3m1!4b1!4m5!3m4!1s0x132e855567d5596f:0xaafe203ed5cc8cfb!8m2!3d42.938422!4d12.623232" class="no-link"><span>google maps</span></a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <a href="index.html#" class="bt-go-down" aria-label="scopri"> </a>
 
 </article>
         </div>
@@ -473,11 +471,11 @@
     </div>
 </footer>
 
-    <script>var lang = 'it', view = 'homepage';</script>
+    <script>var lang = 'it', view = 'azienda';</script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="assets/scripts/petas.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="../assets/scripts/petas.min.js"></script>
 </body>
 
 </html>

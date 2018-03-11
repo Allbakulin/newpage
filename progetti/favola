@@ -2,12 +2,9 @@
 
 <!doctype html>
 <html lang="en">
-<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="Petas è Facility Management e non solo: carpenteria, impianti, progettazione e finiture" /><link href="assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="Petas progetti" /><meta name="keywords" content="expo" /><link href="../assets/styles/style.min.css" rel="stylesheet" type="text/css" />
 
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Jura|PT+Mono|Russo+One" rel="stylesheet">
-
-
-    <script src="assets/scripts/vendor/modernizr.min.js"></script>
+    <script src="../assets/scripts/vendor/modernizr.min.js"></script>
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -23,7 +20,7 @@
     </script>
 
 <title>
-	Facility Management | Petas
+	Progetti  | Petas
 </title></head>
 
 <body>
@@ -33,7 +30,7 @@
 
 
 <div class="buttons">
-	<a class="logo no-link" href="index.html">
+	<a class="logo no-link" href="../index.html">
         <span></span>
     </a>
     <button class="nav">
@@ -46,50 +43,50 @@
     <nav>
         <ul>
             <li class="mobile">
-                <a class="no-link" data-view="homepage" href="index.html">
+                <a class="no-link" data-view="homepage" href="../index.html">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="progetti" href="progetti/favola">
+                <a data-type="pages" data-view="progetti" href="favola">
                     <span>Progetti</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="attivita" href="attivita/costruzioni">
+                <a data-type="pages" data-view="attivita" href="../attivita/costruzioni">
                     <span>Attività</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="settori" href="settori/retail">
+                <a data-type="pages" data-view="settori" href="../settori/retail">
                     <span>Settori</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="azienda" href="azienda/squadra">
+                <a data-type="pages" data-view="azienda" href="../azienda/squadra">
                     <span>Azienda</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="contact" href="contatti">
+                <a data-type="pages" data-view="contact" href="../contatti">
                     <span>Contatti</span>
                 </a>
             </li>
         </ul>
     </nav>
     <div class="nav-lang">
-    <a class="no-link" href="index.html"> IT </a>
-    <a class="no-link" href="en/index.html"> EN </a>
+    <a class="no-link" href="../index.html"> IT </a>
+    <a class="no-link" href="../en/index.html"> EN </a>
   </div>
 </aside>
 
 
 <div id="nav-lat">
     <div id="nav-attivita">
-        <a data-type="pages" data-view="attivita" href="attivita/costruzioni">Attività</a>
+        <a data-type="pages" data-view="attivita" href="../attivita/costruzioni">Attività</a>
     </div>
     <div id="nav-settori">
-        <a data-type="pages" data-view="settori" href="settori/retail">Settori</a>
+        <a data-type="pages" data-view="settori" href="../settori/retail">Settori</a>
     </div>
 </div>
 
@@ -105,191 +102,200 @@
         <div id="container" class="container">
             
 
-<article class="slider--fullscreen scroller" data-base-href="">
+<article id="expo_section" class="slider--fullscreen scroller" data-base-href="/progetti">
 
-    
-
-    <section class="slider__item" id="home1" data-idx="1" data-path="/home">
+	    <section class="slider__item" id="progetti0" data-path="/favola" >
         <div class="wrap">
             <div class="cont">
-                <div id="home-parallax" class="parallax">
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer10" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer9" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer8" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer7" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer6" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer5" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer4" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.23">
-                        <div id="home-layer3" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.20">
-                        <div id="home-layer2" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.30">
-                        <div id="home-layer1" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.40">
-                        <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-	top: 90%;
-">
-                            <span>РЕМОНТ</span>
-                            <span>КВАРТИР</span>
-                        </h2>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="slider__item" id="home2" data-idx="2" data-path="/attivita">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50 grid-right">
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
-                    </h2>
-                </div>
-                <div class="grid-50 grid-left">
-                    <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>подробнее</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="slider__item" id="home3"  data-idx="3" data-path="/settori">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50">
+                <div class="grid-50 first">
                     <div class="mask-rect mask-rect--left">
-                        <img class="clipped" src="assets/images/home/settori.jpg" />
+                        <img class="clipped" src="../assets/images/progetti/favola-small.jpg" />
                     </div>
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
-                    </h2>	
+                    <h2>
+                        <span>Petas: scopri</span><span>la magia </span>
+                    </h2>
                 </div>
                 <div class="grid-50">
                     <div class="cont-text right-text">
-                        <p style="font-weight: bold;">
-                            Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="settori" href="settori.1" ><span>подробнее</span></a>
+                        <p>Dopo il successo ottenuto ad Expo Milano 2015, Petas ha realizzato tutte le tematizzazioni per il nuovo Hotel di Gardaland, Adventure Hotel, e le scenografie per la nuova attrazione del Parco: la Kung Fu Panda Academy.</p>
+                        <p class="text-simple">Le scenografie in vetroresina, le decorazioni e le sculture hanno dato vita ad un Hotel dedicato agli avventurieri più coraggiosi che, con i 4 temi delle Camere (Jungle, Arabian, Artic e Wild West), possono mettersi alla prova durante il soggiorno.
+Le decorazioni del Ristorante, dedicato a Tutankhamon, offrono un vero e proprio viaggio nell’Antico Egitto; viaggio che i visitatori possono intraprendere già varcando la soglia della struttura, attraverso Il Sottomarino.
+La Kung Fu Panda Academy è l’emblema di come Petas sia riuscita a riprodurre alla perfezione il magico mondo Dreamworks: ogni dettaglio e ogni oggetto segue fedelmente il famoso film d’animazione.</p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="dreamworks"><span> scopri progetto </span></a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section class="slider__item" id="home4" data-path="/azienda">
+    <section class="slider__item" id="progetti1" data-path="/expo">
         <div class="wrap">
             <div class="cont">
-                <div class="grid-50 grid-right">
-                    <div class="mask-rect mask-rect--right">
-                       <img class="clipped" src="assets/images/home/azienda-front.jpg" />
-                    </div>
 
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
-                    </h2>
+                <div class="grid-50 grid-right">
+					<div class="mask-rect mask-rect--right">
+						<img class="clipped" src="../assets/images/progetti/childrenpark_small.jpg" />
+					</div>
+					<h2>
+						<span>Petas per</span><span>Expo</span>
+					</h2>
                 </div>
+
                 <div class="grid-50 grid-left">
                     <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="azienda" href="squadra" ><span>калькуляьтор</span></a>
+                        <p>Petas contribuisce alla costruzione di uno dei maggiori eventi a livello internazionale. Grazie a tecnica e competenza prende parte attiva alla più grande Esposizione Universale con un Children Park che emoziona tutti.</p>
+                        <p class="text-simple">Attraverso le otto installazioni interattive di carattere naturalistico e tecnologico, i bambini possono relazionarsi con la struttura imparando il valore dell’Acqua e sperimentando gli effetti dell’Energia sulla vita di ognuno. Lo scopo del progetto è quello di integrare pedagogia, comunicazione, architettura e design in modo da ampliare le strategie di conoscenza della realtà da parte dei bambini attraverso un approccio estetico.</p>
+                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="gallery" data-section="expo"><span> scopri progetto </span></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="slider__item" id="home5" data-path="/contatti">
-        <div class="wrap">
-            <div class="cont">
-
-                <div class="grid-50">
-                    <h2><span>Contatti</span></h2>
-                    <div class="cont-text left-text">
-                        <p class="text-simple">Se desideri ricevere maggiori informazioni riguardo la nostra struttura o i nostri servizi,
-    contattaci utilizzando la form cliccando sul link sottostante.</p>
-                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="contact"><span>Contattaci</span></a>
-                    </div>
-                </div>
-                <div class="grid-50">
-                    <div class="cont-text right-text no-style">
-                        <div class="contact-num">
-                            <span class="label">tel</span>
-                            <a class="no-link" href="tel:0456152399">
-                                <span class="small-nr">+39</span>
-                                <span class="big-nr">045 615 23 99</span>
-                            </a>
-                        </div>
-                        <div class="contact-num">
-                            <span class="label">fax</span>
-                            <span class="small-nr">+39</span>
-                            <span class="big-nr">045 617 03 69</span>
-                        </div>
-
-                        <p class="text-simple address">
-                         Viale del Lavoro, 46 <br/>
-                         37030 Colognola ai Colli (VR)
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Viale+del+Lavoro,+46,+37030+Str%C3%A0-Montanara-Pieve+VR/@45.422955,11.1515229,17z/data=!3m1!4b1!4m2!3m1!1s0x477f5cb06fc2ab2d:0x8290c9818469dd48" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Corso Venezia 8, <br/>
-                         20121, Milano
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Corso+Venezia,+8,+20121+Milano/@45.4678024,9.1964533,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c6bac329751d:0x7b794a05c536943d!8m2!3d45.4677987!4d9.198642" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Via Flaminia 42/B  <br/>
-                         06031 Bevagna, Perugia
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Via+Flaminia,+42,+06031+Bevagna+PG/@42.9384259,12.6210433,17z/data=!3m1!4b1!4m5!3m4!1s0x132e855567d5596f:0xaafe203ed5cc8cfb!8m2!3d42.938422!4d12.623232" class="no-link"><span>google maps</span></a>
-
-                    </div>
-                </div>
-            </div>
+	<div id="nav-counter" class="left-position">
+        <div class="current-count">
+            <span></span>
         </div>
-    </section>
-
-    <a href="index.html#" class="bt-go-down" aria-label="scopri"> </a>
+        <div class="sep-count"> / </div>
+        <div class="total-count">
+            <span></span>
+        </div>
+    </div>
 
 </article>
+
+<div id="gallery_expo" style="display: none">
+
+    <div class="cycle-overlay"></div>
+
+    <div class="item" data-cycle-desc=" Nutrire il pianeta, energia per la vita - Children Park VIDEO ">
+        <a class="youtube-play" target="_blank" href="https://www.youtube.com/watch?v=OLd68cbSD5Y">
+            <i class="icon-youtube"></i>
+        </a>
+        <div class="bg-overlay"></div>
+        <img src="../assets/images/progetti/expo/oriz_001.jpg" style="height: auto; width: 100%" />
+
+    </div>
+
+    <div class="item" data-cycle-desc="Veduta Children Park" >
+        <img src="../assets/images/progetti/expo/oriz_002.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Dettaglio degli interni - Children Park" >
+        <img src="../assets/images/progetti/expo/oriz_003.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Goccia a goccia - Children Park" >
+        <img src="../assets/images/progetti/expo/oriz_004.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Veduta Children Park - Dettagli" >
+        <img src="../assets/images/progetti/expo/oriz_005.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Dettaglio dei rocchetti realizzati in collaborazione con il <a href='https://www.youtube.com/watch?v=N6AT4OlDk1Q' target='_blank' > Gruppo Rubner </a> - Children Park">
+        <img src="../assets/images/progetti/expo/vert_001.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Orto gigante - Children Park" >
+        <img src="../assets/images/progetti/expo/vert_002.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Veduta goccia a goccia - Children Park" >
+        <img src="../assets/images/progetti/expo/vert_003.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Il pulsare della vita - Children Park">
+        <img src="../assets/images/progetti/expo/05.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Energia a pedali - Children Park">
+        <img src="../assets/images/progetti/expo/Bici.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Campane Aromatiche - Children Park">
+        <img src="../assets/images/progetti/expo/Campane.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Dettaglio goccia a goccia - Children Park">
+        <img src="../assets/images/progetti/expo/goccia.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Goccia a goccia - Children Park">
+        <img src="../assets/images/progetti/expo/Goccia-a-goccia.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Proiezioni - Children Park">
+        <img src="../assets/images/progetti/expo/Proiezioni.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Specchi deformanti - Children Park">
+        <img src="../assets/images/progetti/expo/specchi.jpg" />
+    </div>
+
+</div>
+
+<div id="gallery_dreamworks" style="display: none">
+
+    <div class="cycle-overlay"></div>
+
+    <div class="item" data-cycle-desc="Adventure hotel-Gardaland –Reception. Libri in vetroresina e pittura a mano." >
+        <img src="../assets/images/progetti/favola/adventure-hotel01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Adventure hotel-Gardaland – Reception.  Libreria in vero legno, invecchiato manualmente." >
+        <img src="../assets/images/progetti/favola/adventure-hotel02.jpg" />
+    </div>
+	<div class="item" data-cycle-desc="ADVENTURE HOTEL. RECEPTION  BANCONE">
+        <img src="../assets/images/progetti/favola/resturant01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Arabic-Adventure hotel. Dettaglio luce a LED." >
+        <img src="../assets/images/progetti/favola/arabian01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Arabic-Adventure hotel. Archi in cartongesso." >
+        <img src="../assets/images/progetti/favola/arabian02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Arabic-Adventure hotel. Quadri in vetroresina e PVS stampato." >
+        <img src="../assets/images/progetti/favola/arabian03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Artic-Adventure hotel. Ghiaccio e neve in vetroresina.">
+        <img src="../assets/images/progetti/favola/artic01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Artic-Adventure hotel. Stalattite in vetroresina." >
+        <img src="../assets/images/progetti/favola/artic02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Artic-Adventure hotel. oggetti decorativi d’importazione (es. vere ciaspole dal Canada)." >
+        <img src="../assets/images/progetti/favola/artic03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Jungle-Adventure hotel. Vero bamboo e pareti in cemento scolpito calcato.">
+        <img src="../assets/images/progetti/favola/jungle01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera Jungle-Adventure hotel. Alle pareti fotografie lavorate con la sovrapposizione di immagini.">
+        <img src="../assets/images/progetti/favola/jungle02.jpg" />
+    </div>
+	<div class="item" data-cycle-desc="Camera West-Adventure hotel. Arredo dato da calchi su legno.">
+        <img src="../assets/images/progetti/favola/west01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Camera West-Adventure hotel. Tutto ciò che è ha effetto legno è in realtà vetroresina.">
+        <img src="../assets/images/progetti/favola/west02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Kung Fu Panda Academy.  Chi School">
+        <img src="../assets/images/progetti/favola/kfpanda01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Kung Fu Panda Academy. Cesti e frutta in vetroresina, carro in legno invecchiato.">
+        <img src="../assets/images/progetti/favola/kfpanda02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Giostra Kung fu panda Academy. Mr. Ping’s Noodle Surprise (ex. Kaffetassen).">
+        <img src="../assets/images/progetti/favola/kfpanda03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Sottomarino – Ingresso Adventure Hotel.  Opera strutturale">
+        <img src="../assets/images/progetti/favola/submarine01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Sottomarino – Ingresso Adventure Hotel.   Pavimento in legno da esterno.">
+        <img src="../assets/images/progetti/favola/submarine02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Sottomarino – Ingresso Adventure Hotel.   Lamiere pre verniciate in finto legno.">
+        <img src="../assets/images/progetti/favola/submarine03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Ristorante Tutankhamon. Cemento scolpito. Pareti in tatoo wall">
+        <img src="../assets/images/progetti/favola/tutankamon01.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Ristorante Tutankhamon. Colonne in vetroresina">
+        <img src="../assets/images/progetti/favola/tutankamon02.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="Ristorante Tutankhamon. Statua di Anubi in polistirolo con Resefin">
+        <img src="../assets/images/progetti/favola/tutankamon03.jpg" />
+    </div>
+    <div class="item" data-cycle-desc="ADVENTURE HOTEL. RISTORANTE TUTANKHAMON">
+        <img src="../assets/images/progetti/favola/resturant02.jpg" />
+    </div>
+</div>
         </div>
     </section>
     
@@ -473,11 +479,11 @@
     </div>
 </footer>
 
-    <script>var lang = 'it', view = 'homepage';</script>
+    <script>var lang = 'it', view = 'progetti';</script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="assets/scripts/petas.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="../assets/scripts/petas.min.js"></script>
 </body>
 
 </html>

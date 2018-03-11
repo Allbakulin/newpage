@@ -4,9 +4,6 @@
 <html lang="en">
 <head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="Petas è Facility Management e non solo: carpenteria, impianti, progettazione e finiture" /><link href="assets/styles/style.min.css" rel="stylesheet" type="text/css" />
 
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Jura|PT+Mono|Russo+One" rel="stylesheet">
-
-
     <script src="assets/scripts/vendor/modernizr.min.js"></script>
 
     <script>
@@ -107,7 +104,21 @@
 
 <article class="slider--fullscreen scroller" data-base-href="">
 
-    
+    <section class="slider__item clip_bg" id="home0" data-idx="0" data-path="/">
+        <div class="slide-bg" style="background-image: url(assets/images/home/progetti.jpg)"></div>
+        <div class="wrap">
+            <div class="cont">
+                <div class="cont-text cont-center">
+                    <h2>
+                        <span>Petas: un viaggio nella </span> <span> storia, una favola che non ha età</span>
+                    </h2>
+
+                    <a class="underline" data-type="pages" data-view="progetti" href="progetti/favola"><span>scopri di più</span></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="slider__item" id="home1" data-idx="1" data-path="/home">
         <div class="wrap">
@@ -144,13 +155,9 @@
                         <div id="home-layer1" class="gear"></div>
                     </div>
                     <div class="layer" data-depth="0.40">
-                        <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-	top: 90%;
-">
-                            <span>РЕМОНТ</span>
-                            <span>КВАРТИР</span>
+                        <h2>
+                            <span>Facility</span>
+                            <span>Management</span>
                         </h2>
                     </div>
 
@@ -163,19 +170,16 @@
         <div class="wrap">
             <div class="cont">
                 <div class="grid-50 grid-right">
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
+                    <h2>
+                        <span>Attività</span>
                     </h2>
                 </div>
                 <div class="grid-50 grid-left">
                     <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
+                        <p>
+                            Attraverso una strutturazione interna salda e ad un’organizzazione efficace delle varie attività, offriamo un servizio completo e innovativo che risponde in modo rapido e pianificato alle esigenze del cliente.
                         </p>
-                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>подробнее</span></a>
+                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>scopri di più</span></a>
                     </div>
                 </div>
             </div>
@@ -189,19 +193,16 @@
                     <div class="mask-rect mask-rect--left">
                         <img class="clipped" src="assets/images/home/settori.jpg" />
                     </div>
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
-                    </h2>	
+                    <h2>
+                        <span>Settori</span>
+                    </h2>
                 </div>
                 <div class="grid-50">
                     <div class="cont-text right-text">
-                        <p style="font-weight: bold;">
-                            Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
+                        <p>
+                            La specializzazione in diversi settori di produzione e la confluenza di diverse attività in ognuno di questi, permette di garantire ad ogni cliente una pianificazione accurata del lavoro, dalla progettazione alla produzione.
                         </p>
-                        <a data-type="pages" data-view="settori" href="settori.1" ><span>подробнее</span></a>
+                        <a data-type="pages" data-view="settori" href="settori.1" ><span>scopri di più</span></a>
                     </div>
                 </div>
 
@@ -217,19 +218,16 @@
                        <img class="clipped" src="assets/images/home/azienda-front.jpg" />
                     </div>
 
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
+                    <h2>
+                        <span>Azienda</span>
                     </h2>
                 </div>
                 <div class="grid-50 grid-left">
                     <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
+                        <p>
+                           Grazie ad un gruppo di collaboratori perfettamente integrato e sicuro degli obiettivi da raggiungere, siamo cresciuti e siamo sempre pronti a rispondere alle sfide più difficili per mezzo delle competenze e delle conoscenze condivise dalla squadra.
                         </p>
-                        <a data-type="pages" data-view="azienda" href="squadra" ><span>калькуляьтор</span></a>
+                        <a data-type="pages" data-view="azienda" href="squadra" ><span>scopri di più</span></a>
                     </div>
                 </div>
             </div>
@@ -287,7 +285,7 @@
         </div>
     </section>
 
-    <a href="index.html#" class="bt-go-down" aria-label="scopri"> </a>
+    <a href="squadra#" class="bt-go-down" aria-label="scopri"> </a>
 
 </article>
         </div>

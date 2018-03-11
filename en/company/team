@@ -1,0 +1,410 @@
+
+
+<!doctype html>
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="" /><meta name="keywords" content="staff" /><link href="../../assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="../../assets/scripts/vendor/modernizr.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-12562825-31', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+<title>
+	Azienda | Petas
+</title></head>
+
+<body>
+
+    <header id="header">
+        
+
+
+<div class="buttons">
+	<a class="logo no-link" href="../../index.html">
+        <span></span>
+    </a>
+    <button class="nav">
+        <span class="hamburger"></span>
+    </button>
+</div>
+
+<aside class="menu">
+    <div class="nav-slanted"></div>
+    <nav>
+        <ul>
+            <li class="mobile">
+                <a class="no-link" data-view="homepage" href="../index.html">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="progetti" href="../projects/fable">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="attivita" href="../services/constructions">
+                    <span>Services</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="settori" href="../industries/retail">
+                    <span>Industries</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="azienda" href="team">
+                    <span>Company</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="contact" href="../contacts">
+                    <span>Contacts</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nav-lang">
+    <a class="no-link" href="../../index.html"> IT </a>
+    <a class="no-link" href="../index.html"> EN </a>
+  </div>
+</aside>
+
+
+<div id="nav-lat">
+    <div id="nav-attivita">
+        <a data-type="pages" data-view="attivita" href="../services/constructions">Services</a>
+    </div>
+    <div id="nav-settori">
+        <a data-type="pages" data-view="settori" href="../industries/retail">Industries</a>
+    </div>
+</div>
+
+
+<nav id="sidebar" role="navigation" aria-label="Quick Navigation">
+    <ol class="bar nav--bar">
+        <!--creato dinamicamente-->
+    </ol>
+</nav>
+    </header>
+
+    <section id="main">
+        <div id="container" class="container">
+            
+
+
+
+<article id="about_slider" class="slider--fullscreen scroller" data-base-href="/company">
+
+
+    <section class="slider__item" id="azienda0" data-path="/team">
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50 first">
+                    <div class="mask-rect mask-rect--left">
+                        <img class="clipped" src="../../assets/images/azienda/squadra-azienda.jpg" />
+                    </div>
+                    <h2>
+                        <span>Our</span><span>team</span>
+                    </h2>
+                </div>
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>
+                            In Petas, we always put body and soul into everything we do. We believe that human motivation is fuel and a key element in organization while shared corporate values are a vehicle that will safely bring you to your desired destination.
+                        </p>
+                        <p class="text-simple">
+                            In the passed years, we have grown geographically, numerically and also in terms of service complexity, staying always customer-oriented, keeping innovating and improving the solutions we provide. We constantly monitor potential risks and problems of all our projects as well as identify new opportunities and subsequently propose eventual solutions and improvements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="azienda2" data-path="/mission">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50">
+                    <div class="cont-text left-text">
+                        <p class="text-simple">
+                            Our specialists are proactive, flexible and easy to work with. We assign a responsible person to each account who monitors the service, coordinates the whole team and ensures the highest quality delivery. Companies are not looking for a supplier anymore but a strategic partner that would help them increase the value of their facility assets. And that’s exactly who we are.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-50">
+                    <div class="mask-rect mask-rect--right">
+                        <img class="clipped" src="../../assets/images/azienda/cards.jpg" />
+                    </div>
+                    <h2 class="small-title">
+                        <span>Mission</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="azienda3" data-path="/philosophy">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50">
+                    <h2>
+                        <span>Our</span><span>philosophy</span>
+                    </h2>
+                    <div class="cont-text left-text">
+                        <p>
+                           We are committed to providing reliable and responsible value-added service.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="grid-50">
+                   <div class="cont-text right-text">
+                        <p class="text-simple">
+                           In Petas, as in a group of individuals working together for the benefit of the whole, we believe in constant innovation and challenge ourselves in everything we do to improve our clients’ experience. We find unique answers to complex questions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="certificati" data-path="/certifications">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+                    <div class="mask-rect mask-rect--right">
+                        <img class="clipped" src="../../assets/images/azienda/certificati.jpg" />
+                    </div>
+                    <h2>
+                        <span>Our</span><span>certifications</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50 grid-left">
+                   <div class="cont-text left-text">
+                        <p>
+                            Certificati
+                        </p>
+                        <br><br>
+                        <div class="item-p">
+                            <strong>ATTESTAZIONE CQOP SOA</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>ISO 9001:2008</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>ISO 14001:2004</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>BS OHSAS 18001: 2007</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>SA 8000:2008</strong>
+                        </div>
+                        <div class="item-p">
+                            <strong>F- GAS: REGOLAMENTO CE 303/2008</strong>
+                        </div>
+                        <br>
+                        <br>
+                        <a class="no-link" href="../../assets/politica-aziendale.pdf" target="_blank"> <span>Company policy</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="azienda4" data-path="/social">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+                    <div class="mask-rect mask-rect--right">
+                        <img class="clipped" src="../../assets/images/azienda/sociale.jpg" />
+                    </div>
+                    <h2>
+                        <span>Social</span><span>responsability</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50 grid-left">
+                   <div class="cont-text left-text">
+                        <p>
+                            Our Projects
+                        </p>
+                        <p class="text-simple">
+                            We place great importance not just on what we do, but how we do it. We want to contribute to the world we live in and enhance people’s lives by acting responsibly and working collaboratively.
+
+                        </p>
+                        <p class="text-simple">
+                        Together with The Regina Pacis Foundation, we helped to build a home for orphans and youth without any family support, in order to give them a chance for better life. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="azienda5" data-path="/sponsor">
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50">
+                    <div class="mask-rect mask-rect--left">
+                        <img class="clipped" src="../../assets/images/azienda/bluvolley_hellas.png" />
+                    </div>
+                </div>
+                <div class="grid-50">
+                   <div class="cont-text right-text">
+                        <p>
+                            Sponsorship
+                        </p>
+                        <p class="text-simple">
+                            We believe that physical education and sport represent an important aspect of life and society. Therefore, we regularly support several local and national sport activities and clubs.
+                        </p>
+                        <p class="text-simple">
+                           We are present at the Bentegodi stadium and we sponsor Calzedonia Volleyball Bluvolley Team.
+                        </p>
+                        <br/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+</article>
+        </div>
+    </section>
+    
+    
+
+
+<div id="contact-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="wrap">
+        <div class="cont">
+
+
+
+            <div class="grid-30 cont-text">
+                <h2>
+                    <span>Contact Us</span>
+                </h2>
+                <p class="responsive">
+                    Contact us for any informations.
+                </p>
+                <p class="text-simple">
+                    Take advantage of our professional support and rely on our experts with many-year know-how.
+                </p>
+
+                <a href="javascript:void(0);" id="backForm" class="no-link"><span>Back to form</span></a>
+
+
+            </div>
+            <div class="grid-60">
+                <form id="contactform" action="http://petas.it/thank-you" method="post">
+                    <div class="form-labels clearfix">
+
+                        <label for="contactperson" class="hidden"></label>
+                        <input type="text" data-name="contactperson" name="contactperson" required placeholder="Name and Surname *" />
+
+                        <label for="email" class="hidden"></label>
+                        <input type="email" data-name="email" name="email" required placeholder="Email *" />
+
+                        <label for="country" class="hidden"></label>
+                        <input type="text" data-name="country" name="country" required placeholder="City *" />
+
+                        <label for="phone" class="hidden"></label>
+                        <input type="text" data-name="telephone" name="telephone" required placeholder="Phone number *" />
+
+                        <label for="message" class="hidden"></label>
+                        <textarea rows="5" cols="40" data-name="message" placeholder="Your message" required name="message"></textarea>
+                        <input id="hidPrivacy" type="hidden" value="1" />
+                    </div>
+                    <div class="footer-form clearfix">
+
+                        <div class="checkbox-wrapper left">
+                            <input id="checkboxPrivacy" type="checkbox" name="privacy" data-name="checkbox" class="nl-privacy-check checkbox-field" required>
+                            <a id="privacyOpen" class="no-link left" href="javascript:void(0);"> I have read and I do accept privacy policy</a>
+                        </div>
+
+                        <div class="send-wrapper cont-text">
+                            <a id="lnkSend" href="javascript:void(0)" class="send no-link">
+                                <span>Send Request</span>
+                            </a>
+                            <span id="result"> EMAIL SENT CORRECTLY! </span>
+                        </div>
+                        <span id="required-fields">* Required fields</span>
+                    </div>
+                </form>
+                <div id="privacy_cont">
+                    <div id="privacy_overflow"></div>
+                    <div id="privacy_text">
+                        <div class="cont">
+                            <div class="cont-text text-center">
+
+                                <p> Privacy Policy </p><p class="text-simple">Personal details provided by filling in this form will be processed by Petas Srl with registered offices at Viale del Lavoro, 46
+37030 Colognola ai Colli (VR) - Italy, in such a way as to guarantee the security and confidentiality of the same, and in compliance with the requirements of the law governing privacy and the protection of personal data (Italian Legislative Decree 196/2003). Such data will be consulted and processed on paper or in electronic form in a controlled-access environment. Personal details may be distributed to relevant personnel within company for the following purposes: market research, promotions and commercial information, etc.. Your details may also be distributed by Petas Srl as process owner to other associated companies or third parties for the same purposes. The provision of your personal details is entirely voluntary, but failure to provide them will make it impossible for us to comply with your request for information. You may, at any time, request that your personal details be updated, modified, added to, or deleted in accordance with Article 7 of Italian Legislative Decree 196/2003, by sending an e-mail to the following address:</p>
+info@petas.it
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="gallery-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="slideshow">
+
+    </div>
+
+    <div class="nav-gallery">
+        <a href="javascript:void(0);" id="prev" class="no-link"><span></span></a>
+        <a href="javascript:void(0);" id="next" class="no-link"><span></span></a>
+    </div>
+</div>
+
+
+    
+
+<footer id="footer">
+    <div class="left-footer">© PETAS . P.IVA IT 03374880239 . REA 331154 </div>
+    <div class="right-footer">
+        <a href="javascript:void(0)" class="no-link open-overlay" data-overlay-id="contact">Contact Us</a>
+        <span>.</span>
+        <a href="http://www.aquest.it" target="_blank" class="no-link">CREDITS</a>
+    </div>
+</footer>
+
+    <script>var lang = 'en', view = 'azienda';</script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="../../assets/scripts/petas.min.js"></script>
+</body>
+
+</html>
+

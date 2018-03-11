@@ -1,0 +1,421 @@
+
+
+<!doctype html>
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="" /><meta name="keywords" content="contact" /><link href="../../assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="../../assets/scripts/vendor/modernizr.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-12562825-31', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+<title>
+	Clienti | Petas
+</title></head>
+
+<body>
+
+    <header id="header">
+        
+
+
+<div class="buttons">
+	<a class="logo no-link" href="../../index.html">
+        <span></span>
+    </a>
+    <button class="nav">
+        <span class="hamburger"></span>
+    </button>
+</div>
+
+<aside class="menu">
+    <div class="nav-slanted"></div>
+    <nav>
+        <ul>
+            <li class="mobile">
+                <a class="no-link" data-view="homepage" href="../index.html">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="progetti" href="../projects/fable">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="attivita" href="../services/constructions">
+                    <span>Services</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="settori" href="../industries/retail">
+                    <span>Industries</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="azienda" href="../company/team">
+                    <span>Company</span>
+                </a>
+            </li>
+            <li>
+                <a data-type="pages" data-view="contact" href="../contacts">
+                    <span>Contacts</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nav-lang">
+    <a class="no-link" href="../../index.html"> IT </a>
+    <a class="no-link" href="../index.html"> EN </a>
+  </div>
+</aside>
+
+
+<div id="nav-lat">
+    <div id="nav-attivita">
+        <a data-type="pages" data-view="attivita" href="../services/constructions">Services</a>
+    </div>
+    <div id="nav-settori">
+        <a data-type="pages" data-view="settori" href="../industries/retail">Industries</a>
+    </div>
+</div>
+
+
+<nav id="sidebar" role="navigation" aria-label="Quick Navigation">
+    <ol class="bar nav--bar">
+        <!--creato dinamicamente-->
+    </ol>
+</nav>
+    </header>
+
+    <section id="main">
+        <div id="container" class="container">
+            
+
+
+
+<article id="clienti_slide" class="slider--fullscreen scroller" data-base-href="/en/customers">
+
+
+    <section class="slider__item" id="clienti0" data-path="/retail">
+        <div class="wrap">
+            <div class="cont grid-left">
+                <h2>
+                    <span>Retail</span>
+                </h2>
+                <div class="section--customers">
+                    <div class="row ">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/7.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/31.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/34.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/35.png);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="clienti1" data-path="/large-scale-retail-trade">
+        <div class="wrap">
+            <div class="cont grid-left">
+                <h2>
+                   <span>Large scale</span><span> retail trade</span>
+                </h2>
+                <div class="section--customers">
+                    <div class="row first">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/24.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/6.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/25.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/3.png);"></div>
+                        </div>
+                    </div>
+                    <div class="row second">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/13.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/14.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/18.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/27.png);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="clienti2" data-path="/artistic-setup">
+        <div class="wrap">
+            <div class="cont grid-left">
+                <h2>
+                    <span>Stage design and </span> <span> artistic set-up </span>
+                </h2>
+                <div class="section--customers">
+                    <div class="row first">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/20.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/21.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/15.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/32.png);"></div>
+                        </div>
+                    </div>
+
+                    <div class="row second">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/33.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/36.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/37.png);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="clienti3" data-path="/office">
+        <div class="wrap">
+            <div class="cont grid-left">
+                <h2>
+                    <span> Office </span>
+                </h2>
+                <!-- <div class="cont-text left-text">
+
+                    <p class="text-simple">Offriamo le nostre competenze <br> ad una larga varietà di clienti <br> operanti in diversi settori:</p>
+                </div> -->
+                <div class="section--customers">
+                    <div class="row first">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/28.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/2.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/23.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/30.png);"></div>
+                        </div>
+                    </div>
+                    <div class="row second">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/9.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/10.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/12.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/19.png);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider__item" id="clienti4" data-path="/industry">
+        <div class="wrap">
+            <div class="cont grid-left">
+                <h2>
+                    <span>Industry</span>
+
+                </h2>
+                <div class="section--customers">
+                    <div class="row first">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/1.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/8.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/4.png);"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/41.png);"></div>
+                        </div>
+                    </div>
+					<div class="row-second">
+                        <div class="item">
+                            <div class="item__image" style="background-image: url(../../assets/images/clienti/42.png);"></div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="nav-counter" class="right-position">
+        <div class="current-count">
+            <span></span>
+        </div>
+        <div class="sep-count"> / </div>
+        <div class="total-count">
+            <span></span>
+        </div>
+    </div>
+
+</article>
+
+
+        </div>
+    </section>
+    
+    
+
+
+<div id="contact-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="wrap">
+        <div class="cont">
+
+
+
+            <div class="grid-30 cont-text">
+                <h2>
+                    <span>Contact Us</span>
+                </h2>
+                <p class="responsive">
+                    Contact us for any informations.
+                </p>
+                <p class="text-simple">
+                    Take advantage of our professional support and rely on our experts with many-year know-how.
+                </p>
+
+                <a href="javascript:void(0);" id="backForm" class="no-link"><span>Back to form</span></a>
+
+
+            </div>
+            <div class="grid-60">
+                <form id="contactform" action="http://petas.it/thank-you" method="post">
+                    <div class="form-labels clearfix">
+
+                        <label for="contactperson" class="hidden"></label>
+                        <input type="text" data-name="contactperson" name="contactperson" required placeholder="Name and Surname *" />
+
+                        <label for="email" class="hidden"></label>
+                        <input type="email" data-name="email" name="email" required placeholder="Email *" />
+
+                        <label for="country" class="hidden"></label>
+                        <input type="text" data-name="country" name="country" required placeholder="City *" />
+
+                        <label for="phone" class="hidden"></label>
+                        <input type="text" data-name="telephone" name="telephone" required placeholder="Phone number *" />
+
+                        <label for="message" class="hidden"></label>
+                        <textarea rows="5" cols="40" data-name="message" placeholder="Your message" required name="message"></textarea>
+                        <input id="hidPrivacy" type="hidden" value="1" />
+                    </div>
+                    <div class="footer-form clearfix">
+
+                        <div class="checkbox-wrapper left">
+                            <input id="checkboxPrivacy" type="checkbox" name="privacy" data-name="checkbox" class="nl-privacy-check checkbox-field" required>
+                            <a id="privacyOpen" class="no-link left" href="javascript:void(0);"> I have read and I do accept privacy policy</a>
+                        </div>
+
+                        <div class="send-wrapper cont-text">
+                            <a id="lnkSend" href="javascript:void(0)" class="send no-link">
+                                <span>Send Request</span>
+                            </a>
+                            <span id="result"> EMAIL SENT CORRECTLY! </span>
+                        </div>
+                        <span id="required-fields">* Required fields</span>
+                    </div>
+                </form>
+                <div id="privacy_cont">
+                    <div id="privacy_overflow"></div>
+                    <div id="privacy_text">
+                        <div class="cont">
+                            <div class="cont-text text-center">
+
+                                <p> Privacy Policy </p><p class="text-simple">Personal details provided by filling in this form will be processed by Petas Srl with registered offices at Viale del Lavoro, 46
+37030 Colognola ai Colli (VR) - Italy, in such a way as to guarantee the security and confidentiality of the same, and in compliance with the requirements of the law governing privacy and the protection of personal data (Italian Legislative Decree 196/2003). Such data will be consulted and processed on paper or in electronic form in a controlled-access environment. Personal details may be distributed to relevant personnel within company for the following purposes: market research, promotions and commercial information, etc.. Your details may also be distributed by Petas Srl as process owner to other associated companies or third parties for the same purposes. The provision of your personal details is entirely voluntary, but failure to provide them will make it impossible for us to comply with your request for information. You may, at any time, request that your personal details be updated, modified, added to, or deleted in accordance with Article 7 of Italian Legislative Decree 196/2003, by sending an e-mail to the following address:</p>
+info@petas.it
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="gallery-overlay" class="cont-overlay">
+    <div class="nav-slanted"></div>
+
+    <div class="slideshow">
+
+    </div>
+
+    <div class="nav-gallery">
+        <a href="javascript:void(0);" id="prev" class="no-link"><span></span></a>
+        <a href="javascript:void(0);" id="next" class="no-link"><span></span></a>
+    </div>
+</div>
+
+
+    
+
+<footer id="footer">
+    <div class="left-footer">© PETAS . P.IVA IT 03374880239 . REA 331154 </div>
+    <div class="right-footer">
+        <a href="javascript:void(0)" class="no-link open-overlay" data-overlay-id="contact">Contact Us</a>
+        <span>.</span>
+        <a href="http://www.aquest.it" target="_blank" class="no-link">CREDITS</a>
+    </div>
+</footer>
+
+    <script>var lang = 'en', view = 'clienti';</script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="../../assets/scripts/petas.min.js"></script>
+</body>
+
+</html>
+

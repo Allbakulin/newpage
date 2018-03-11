@@ -2,12 +2,9 @@
 
 <!doctype html>
 <html lang="en">
-<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="Petas è Facility Management e non solo: carpenteria, impianti, progettazione e finiture" /><link href="assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="La specializzazione in diversi settori di produzione e la confluenza di diverse attività in ognuno di questi, permette di garantire ad ogni cliente una pianificazione accurata del lavoro, dalla progettazione alla produzione." /><meta name="keywords" content="settori" /><link href="../assets/styles/style.min.css" rel="stylesheet" type="text/css" />
 
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Jura|PT+Mono|Russo+One" rel="stylesheet">
-
-
-    <script src="assets/scripts/vendor/modernizr.min.js"></script>
+    <script src="../assets/scripts/vendor/modernizr.min.js"></script>
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -23,7 +20,7 @@
     </script>
 
 <title>
-	Facility Management | Petas
+	Settori | Petas
 </title></head>
 
 <body>
@@ -33,7 +30,7 @@
 
 
 <div class="buttons">
-	<a class="logo no-link" href="index.html">
+	<a class="logo no-link" href="../index.html">
         <span></span>
     </a>
     <button class="nav">
@@ -46,50 +43,50 @@
     <nav>
         <ul>
             <li class="mobile">
-                <a class="no-link" data-view="homepage" href="index.html">
+                <a class="no-link" data-view="homepage" href="../index.html">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="progetti" href="progetti/favola">
+                <a data-type="pages" data-view="progetti" href="../progetti/favola">
                     <span>Progetti</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="attivita" href="attivita/costruzioni">
+                <a data-type="pages" data-view="attivita" href="../attivita/costruzioni">
                     <span>Attività</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="settori" href="settori/retail">
+                <a data-type="pages" data-view="settori" href="retail">
                     <span>Settori</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="azienda" href="azienda/squadra">
+                <a data-type="pages" data-view="azienda" href="../azienda/squadra">
                     <span>Azienda</span>
                 </a>
             </li>
             <li>
-                <a data-type="pages" data-view="contact" href="contatti">
+                <a data-type="pages" data-view="contact" href="../contatti">
                     <span>Contatti</span>
                 </a>
             </li>
         </ul>
     </nav>
     <div class="nav-lang">
-    <a class="no-link" href="index.html"> IT </a>
-    <a class="no-link" href="en/index.html"> EN </a>
+    <a class="no-link" href="../index.html"> IT </a>
+    <a class="no-link" href="../en/index.html"> EN </a>
   </div>
 </aside>
 
 
 <div id="nav-lat">
     <div id="nav-attivita">
-        <a data-type="pages" data-view="attivita" href="attivita/costruzioni">Attività</a>
+        <a data-type="pages" data-view="attivita" href="../attivita/costruzioni">Attività</a>
     </div>
     <div id="nav-settori">
-        <a data-type="pages" data-view="settori" href="settori/retail">Settori</a>
+        <a data-type="pages" data-view="settori" href="retail">Settori</a>
     </div>
 </div>
 
@@ -105,191 +102,179 @@
         <div id="container" class="container">
             
 
-<article class="slider--fullscreen scroller" data-base-href="">
 
-    
 
-    <section class="slider__item" id="home1" data-idx="1" data-path="/home">
+<article id="settori_slide" class="slider--fullscreen scroller" data-base-href="/settori">
+
+
+    <section class="slider__item" id="settori0" data-path="/retail">
         <div class="wrap">
             <div class="cont">
-                <div id="home-parallax" class="parallax">
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer10" class="gear"></div>
+                <div class="grid-50 first">
+                    <div class="mask-rect mask-rect--left">
+                        <img class="clipped" src="../assets/images/settori/SETTORI_RETAIL.jpg" />
                     </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer9" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer8" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer7" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer6" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer5" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer4" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.23">
-                        <div id="home-layer3" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.20">
-                        <div id="home-layer2" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.30">
-                        <div id="home-layer1" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.40">
-                        <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-	top: 90%;
-">
-                            <span>РЕМОНТ</span>
-                            <span>КВАРТИР</span>
-                        </h2>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="slider__item" id="home2" data-idx="2" data-path="/attivita">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50 grid-right">
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
+                    <h2>
+                        <span>Retail</span>
                     </h2>
                 </div>
-                <div class="grid-50 grid-left">
-                    <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>подробнее</span></a>
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>Il tempo, soprattutto in questo specifico caso, è prezioso, per questo operiamo con orari estremamente flessibili rispondendo efficacemente alle richieste del cliente. </p>
+                        <p class="text-simple">Quando si tratta di costruzione o sistemazione dei layout espositivi nei diversi negozi, ciò che è fondamentale è la velocità e la discrezione con cui il lavoro viene eseguito in aggiunta alla capacità di riproduzione che lo stesso richiede attraverso il coordinamento delle squadre di lavoro. </p>
+                        <a href="../clienti/retail"><span>Clienti</span></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="slider__item" id="home3"  data-idx="3" data-path="/settori">
+    <section class="slider__item" id="settori1" data-path="/grande-distribuzione">
+        <div class="wrap">
+            <div class="cont">
+
+                <div class="grid-50 grid-right">
+                    <div class="mask-rect mask-rect--right">
+                       <img class="clipped" src="../assets/images/settori/SETTORI_GDO.jpg" />
+                    </div>
+                    <h2>
+                        <span>Grande</span><span> distribuzione</span>
+                    </h2>
+                </div>
+
+                <div class="grid-50 grid-left">
+                    <div class="cont-text left-text">
+                        <p>Grazie all’esperienza acquisita in questo settore, garantiamo al cliente un intervento veloce ed efficace con una presenza sempre discreta durante lo sviluppo dei lavori.</p>
+                        <p class="text-simple">Siamo preparati a rispondere prontamente ad ogni intervento di modifica del layout in tutti i suoi aspetti con un’unica squadra specializzata in diversi settori. Tutto il lavoro viene pianificato e strutturato sulla base delle esigenze del cliente e svolto nel rispetto dell’esecuzione delle normali attività.</p>
+                        <a href="../clienti/grande-distribuzione"><span>Clienti</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider__item" id="settori2" data-path="/artistico-scenografico">
         <div class="wrap">
             <div class="cont">
                 <div class="grid-50">
                     <div class="mask-rect mask-rect--left">
-                        <img class="clipped" src="assets/images/home/settori.jpg" />
+                        <img class="clipped" src="../assets/images/settori/settori2.jpg" />
                     </div>
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
-                    </h2>	
+                    <h2>
+                        <span>Artistico </span> <span> scenografico </span>
+                    </h2>
                 </div>
                 <div class="grid-50">
                     <div class="cont-text right-text">
-                        <p style="font-weight: bold;">
-                            Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="settori" href="settori.1" ><span>подробнее</span></a>
+                        <p>Anche il divertimento ha bisogno di una pianificazione ed esecuzione appropriata per creare scenografie su territorio nazionale e internazionale, soprattutto per quanto riguarda i Paesi emergenti.</p>
+                        <p class="text-simple">Operativi in vari campi artistici e scenografici, tale settore svolge un’importante funzione culturale. Anche in questo caso è necessario investire e rivolgere particolare attenzione alla fase di progettazione in quanto, una volta pianificate in modo corretto le attività da svolgere, lo sviluppo creativo risulta più efficiente.</p>
+                        <a href="../clienti/artistico-scenografico"><span>Clienti</span></a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section class="slider__item" id="home4" data-path="/azienda">
+    <section class="slider__item" id="settori3" data-path="/office">
         <div class="wrap">
             <div class="cont">
                 <div class="grid-50 grid-right">
                     <div class="mask-rect mask-rect--right">
-                       <img class="clipped" src="assets/images/home/azienda-front.jpg" />
+                       <img class="clipped" src="../assets/images/settori/SETTORI_UFFICI.jpg" />
                     </div>
-
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>РЕМОНТ</span>
+                    <h2>
+                        <span>Office</span>
                     </h2>
                 </div>
                 <div class="grid-50 grid-left">
                     <div class="cont-text left-text">
-                        <p style="font-weight: bold;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="azienda" href="squadra" ><span>калькуляьтор</span></a>
+                        <p>Per degli ambienti di lavoro professionali e accoglienti nei quali svolgere al meglio lediverse attività, ti offriamo la nostra esperienza per tutto ciò che riguarda uffici pubblici e privati.</p>
+                        <p class="text-simple">La strutturazione di un ufficio nasce dalla progettazione iniziale che definisce, passo dopo passo, tutti gli step del progetto compreso il mantenimento dello stesso. Il facility management prevede proprio questo, il supporto di tutti i processi fondamentali per un organizzazione ottimale quindi, anche le strutture stesse.</p>
+                        <a href="../clienti/office"><span>Clienti</span></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="slider__item" id="home5" data-path="/contatti">
+    <section class="slider__item" id="settori4" data-path="/immobili">
         <div class="wrap">
             <div class="cont">
-
                 <div class="grid-50">
-                    <h2><span>Contatti</span></h2>
-                    <div class="cont-text left-text">
-                        <p class="text-simple">Se desideri ricevere maggiori informazioni riguardo la nostra struttura o i nostri servizi,
-    contattaci utilizzando la form cliccando sul link sottostante.</p>
-                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="contact"><span>Contattaci</span></a>
+                    <div class="mask-rect mask-rect--left">
+                       <img class="clipped" src="../assets/images/settori/SETTORI_INTERNI.jpg" />
                     </div>
+                    <h2>
+                        <span>Immobili</span>
+                    </h2>
                 </div>
                 <div class="grid-50">
-                    <div class="cont-text right-text no-style">
-                        <div class="contact-num">
-                            <span class="label">tel</span>
-                            <a class="no-link" href="tel:0456152399">
-                                <span class="small-nr">+39</span>
-                                <span class="big-nr">045 615 23 99</span>
-                            </a>
-                        </div>
-                        <div class="contact-num">
-                            <span class="label">fax</span>
-                            <span class="small-nr">+39</span>
-                            <span class="big-nr">045 617 03 69</span>
-                        </div>
-
-                        <p class="text-simple address">
-                         Viale del Lavoro, 46 <br/>
-                         37030 Colognola ai Colli (VR)
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Viale+del+Lavoro,+46,+37030+Str%C3%A0-Montanara-Pieve+VR/@45.422955,11.1515229,17z/data=!3m1!4b1!4m2!3m1!1s0x477f5cb06fc2ab2d:0x8290c9818469dd48" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Corso Venezia 8, <br/>
-                         20121, Milano
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Corso+Venezia,+8,+20121+Milano/@45.4678024,9.1964533,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c6bac329751d:0x7b794a05c536943d!8m2!3d45.4677987!4d9.198642" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Via Flaminia 42/B  <br/>
-                         06031 Bevagna, Perugia
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Via+Flaminia,+42,+06031+Bevagna+PG/@42.9384259,12.6210433,17z/data=!3m1!4b1!4m5!3m4!1s0x132e855567d5596f:0xaafe203ed5cc8cfb!8m2!3d42.938422!4d12.623232" class="no-link"><span>google maps</span></a>
-
+                    <div class="cont-text right-text">
+                        <p>Vogliamo offrire un servizio sempre puntuale e personalizzato, progettando su misura ogni aspetto, sulla base delle esigenze del cliente e del contesto in cui la struttura si inserisce.</p>
+                        <p class="text-simple">L’esperienza nel settore delle costruzioni immobiliari ci permette di realizzare progetti sempre diversi e specifici grazie alla creatività che poniamo indistintamente in tutto ciò che realizziamo. La personalizzazione, in questo campo, è fondamentale per la riuscita ottimale dell’idea.</p>
+                        <!-- <a href="/clienti/immobili"><span>Clienti</span></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider__item" id="settori5" data-path="/industria">
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50 grid-right">
+                    <div class="mask-rect mask-rect--right">
+                        <img class="clipped" src="../assets/images/settori/settori4.jpg" />
+                    </div>
+                    <h2>
+                        <span>Industria</span>
+                    </h2>
+                </div>
+                <div class="grid-50 grid-left">
+                    <div class="cont-text left-text">
+                        <p>Per rispettare gli standard di gestione tecnica di un’industria, è necessaria un’organizzazione pianificata delle diverse attività a supporto del cliente.</p>
+                        <p class="text-simple">I servivi tecnici di gestione, in questo specifico settore, vanno programmati opportunamente anche per la facilitazione dei progetti interni. L’intero processo viene agevolato dall’utilizzo di innovazioni tecnologiche all’avanguardia che permettono un’organizzazione più funzionale ed efficace.</p>
+                        <a href="../clienti/industria"><span>Clienti</span></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <a href="index.html#" class="bt-go-down" aria-label="scopri"> </a>
+    <section class="slider__item" id="settori6" data-path="/hotel">
+        <div class="wrap">
+            <div class="cont">
+                <div class="grid-50">
+                    <div class="mask-rect mask-rect--left">
+                       <img class="clipped" src="../assets/images/settori/settori5.jpg" />
+                    </div>
+                    <h2>
+                        <span>Hotel</span>
+                    </h2>
+                </div>
+                <div class="grid-50">
+                    <div class="cont-text right-text">
+                        <p>Vogliamo valorizzare la vostra attività nel migliore dei modi attraverso una pianificazione creativa del progetto da realizzare. Per questo è necessario combinare innovazione ed esecuzione per conseguire un risultato ottimale.</p>
+                        <p class="text-simple">In questo ambito la discrezione è uno degli elementi fondamentali per la riuscita del progetto e per l’agevolazione dell’esercizio stesso del cliente. Per qualsiasi attività necessaria in questo settore, viene pianificato integralmente l’intero progetto con tutti gli uffici preposti.</p>
+                        <!-- <a href="/clienti-hotel"><span>Clienti</span></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="nav-counter" class="right-position">
+        <div class="current-count">
+            <span></span>
+        </div>
+        <div class="sep-count"> / </div>
+        <div class="total-count">
+            <span></span>
+        </div>
+    </div>
 
 </article>
+
+
         </div>
     </section>
     
@@ -473,11 +458,11 @@
     </div>
 </footer>
 
-    <script>var lang = 'it', view = 'homepage';</script>
+    <script>var lang = 'it', view = 'settori';</script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="assets/scripts/petas.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="../assets/scripts/petas.min.js"></script>
 </body>
 
 </html>
