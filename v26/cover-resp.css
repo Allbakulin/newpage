@@ -1,0 +1,407 @@
+@media (min-width: 760px) and (max-width: 839px) {
+    #cover {
+        height: 355px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-433.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 14px;
+    }
+
+    #sub-headline {
+        margin-top: 14px;
+    }
+
+    .cover-button {
+        margin-top: 28px;
+    }
+}
+@media
+only screen and (min-width: 760px) and (max-width: 839px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 760px) and (max-width: 839px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 760px) and (max-width: 839px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 760px) and (max-width: 839px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 760px) and (max-width: 839px) and (min-resolution: 144dpi),
+only screen and (min-width: 760px) and (max-width: 839px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-866.jpg");
+        background-size: 433px;
+    }
+}
+
+@media (min-width: 840px) and (max-width: 919px) {
+    #cover {
+        height: 393px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-479.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 14px;
+    }
+
+    #sub-headline {
+        margin-top: 14px;
+    }
+
+    .cover-button {
+        margin-top: 28px;
+    }
+}
+@media
+only screen and (min-width: 840px) and (max-width: 919px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 840px) and (max-width: 919px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 840px) and (max-width: 919px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 840px) and (max-width: 919px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 840px) and (max-width: 919px) and (min-resolution: 144dpi),
+only screen and (min-width: 840px) and (max-width: 919px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-958.jpg");
+        background-size: 479px;
+    }
+}
+
+@media (min-width: 920px) and (max-width: 999px) {
+    #cover {
+        height: 429px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-524.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 16px;
+    }
+
+    #sub-headline {
+        margin-top: 16px;
+    }
+
+    .cover-button {
+        margin-top: 32px;
+    }
+}
+@media
+only screen and (min-width: 920px) and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 920px) and (max-width: 999px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 920px) and (max-width: 999px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 920px) and (max-width: 999px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 920px) and (max-width: 999px) and (min-resolution: 144dpi),
+only screen and (min-width: 920px) and (max-width: 999px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1048.jpg");
+        background-size: 524px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1099px) {
+    #cover {
+        height: 467px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-570.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 16px;
+    }
+
+    #sub-headline {
+        margin-top: 16px;
+    }
+
+    .cover-button {
+        margin-top: 32px;
+    }
+}
+@media
+only screen and (min-width: 1000px) and (max-width: 1099px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1000px) and (max-width: 1099px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1000px) and (max-width: 1099px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1000px) and (max-width: 1099px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1000px) and (max-width: 1099px) and (min-resolution: 144dpi),
+only screen and (min-width: 1000px) and (max-width: 1099px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1140.jpg");
+        background-size: 570px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+    #cover {
+        height: 514px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-627.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 16px;
+    }
+
+    #sub-headline {
+        margin-top: 20px;
+    }
+
+    .cover-button {
+        margin-top: 40px;
+    }
+}
+@media
+only screen and (min-width: 1100px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1100px) and (max-width: 1199px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1100px) and (max-width: 1199px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1100px) and (max-width: 1199px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1100px) and (max-width: 1199px) and (min-resolution: 144dpi),
+only screen and (min-width: 1100px) and (max-width: 1199px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1254.jpg");
+        background-size: 627px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1319px) {
+    #cover {
+        height: 561px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-684.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 18px;
+    }
+
+    #sub-headline {
+        margin-top: 24px;
+    }
+
+    .cover-button {
+        margin-top: 48px;
+    }
+}
+@media
+only screen and (min-width: 1200px) and (max-width: 1319px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1200px) and (max-width: 1319px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1200px) and (max-width: 1319px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1200px) and (max-width: 1319px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1200px) and (max-width: 1319px) and (min-resolution: 144dpi),
+only screen and (min-width: 1200px) and (max-width: 1319px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1368.jpg");
+        background-size: 684px;
+    }
+}
+
+@media (min-width: 1320px) and (max-width: 1439px) {
+    #cover {
+        height: 616px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-752.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 18px;
+    }
+
+    #sub-headline {
+        margin-top: 28px;
+    }
+
+    .cover-button {
+        margin-top: 56px;
+    }
+}
+@media
+only screen and (min-width: 1320px) and (max-width: 1439px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1320px) and (max-width: 1439px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1320px) and (max-width: 1439px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1320px) and (max-width: 1439px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1320px) and (max-width: 1439px) and (min-resolution: 144dpi),
+only screen and (min-width: 1320px) and (max-width: 1439px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1504.jpg");
+        background-size: 752px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1559px) {
+    #cover {
+        height: 673px;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 58%;
+        background-image: url("img/cover-821.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 20px;
+    }
+
+    #sub-headline {
+        margin-top: 30px;
+    }
+
+    .cover-button {
+        margin-top: 60px;
+    }
+}
+@media
+only screen and (min-width: 1440px) and (max-width: 1559px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1440px) and (max-width: 1559px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1440px) and (max-width: 1559px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1440px) and (max-width: 1559px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1440px) and (max-width: 1559px) and (min-resolution: 144dpi),
+only screen and (min-width: 1440px) and (max-width: 1559px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1642.jpg");
+        background-size: 821px;
+    }
+}
+
+@media (min-width: 1560px) and (max-width: 1679px) {
+    #cover {
+        height: 728px;
+        padding-top: 0;
+        padding-left: 10%;
+        padding-right: 60%;
+        background-image: url("img/cover-889.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 20px;
+    }
+
+    #sub-headline {
+        margin-top: 30px;
+    }
+
+    .cover-button {
+        margin-top: 60px;
+    }
+}
+@media
+only screen and (min-width: 1560px) and (max-width: 1679px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1560px) and (max-width: 1679px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1560px) and (max-width: 1679px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1560px) and (max-width: 1679px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1560px) and (max-width: 1679px) and (min-resolution: 144dpi),
+only screen and (min-width: 1560px) and (max-width: 1679px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1778.jpg");
+        background-size: 889px;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1799px) {
+    #cover {
+        height: 785px;
+        padding-top: 0;
+        padding-left: 10%;
+        padding-right: 60%;
+        background-image: url("img/cover-958.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 22px;
+    }
+
+    #sub-headline {
+        margin-top: 40px;
+    }
+
+    .cover-button {
+        margin-top: 80px;
+    }
+}
+@media
+only screen and (min-width: 1680px) and (max-width: 1799px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1680px) and (max-width: 1799px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1680px) and (max-width: 1799px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1680px) and (max-width: 1799px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1680px) and (max-width: 1799px) and (min-resolution: 144dpi),
+only screen and (min-width: 1680px) and (max-width: 1799px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-1916.jpg");
+        background-size: 958px;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 1899px) {
+    #cover {
+        height: 841px;
+        padding-top: 0;
+        padding-left: 10%;
+        padding-right: 60%;
+        background-image: url("img/cover-1026.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 22px;
+    }
+
+    #sub-headline {
+        margin-top: 40px;
+    }
+
+    .cover-button {
+        margin-top: 80px;
+    }
+}
+@media
+only screen and (min-width: 1800px) and (max-width: 1899px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1800px) and (max-width: 1899px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1800px) and (max-width: 1899px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1800px) and (max-width: 1899px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1800px) and (max-width: 1899px) and (min-resolution: 144dpi),
+only screen and (min-width: 1800px) and (max-width: 1899px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-2052.jpg");
+        background-size: 1026px;
+    }
+}
+
+@media (min-width: 1900px) {
+    #cover {
+        height: 887px;
+        padding-top: 0;
+        padding-left: 10%;
+        padding-right: 60%;
+        background-image: url("img/cover-1083.jpg");
+    }
+
+    .cover-sizer {
+        font-size: 24px;
+    }
+
+    #sub-headline {
+        margin-top: 44px;
+    }
+
+    .cover-button {
+        margin-top: 88px;
+    }
+}
+@media
+only screen and (min-width: 1900px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1900px) and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-width: 1900px) and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-width: 1900px) and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1900px) and (min-resolution: 144dpi),
+only screen and (min-width: 1900px) and (min-resolution: 1.5dppx) {
+    #cover {
+        background-image: url("img/cover-2166.jpg");
+        background-size: 1083px;
+    }
+}

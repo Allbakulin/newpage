@@ -1,477 +1,281 @@
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
 
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.shapespark.com/favicon/favicon-152.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.shapespark.com/favicon/favicon-144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.shapespark.com/favicon/favicon-120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.shapespark.com/favicon/favicon-114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.shapespark.com/favicon/favicon-72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.shapespark.com/favicon/favicon-57.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="https://www.shapespark.com/favicon/favicon-144.png">
 
-<!doctype html>
-<html lang="en">
-<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" /><meta http-equiv="Cache-control" content="no-cache" /><meta name="apple-mobile-web-app-title" content="Petas" /><meta name="format-detection" content="telephone=no" /><meta name="description" content="Petas è Facility Management e non solo: carpenteria, impianti, progettazione e finiture" /><link href="assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+  <meta property="og:image" content="https://vis.shapespark.com/demo/flat-for-a-couple/v14/cover.jpg">
 
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Jura|PT+Mono|Russo+One" rel="stylesheet">
+  <link href="https://vis.shapespark.com/webwalk/v128/style.css" rel="stylesheet" type="text/css">
 
+  <style>
+    @font-face {
+      font-family: 'Noto Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Noto Sans'), local('NotoSans'),
+      url('https://vis.shapespark.com/webwalk/v128/font/noto-sans-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('https://vis.shapespark.com/webwalk/v128/font/noto-sans-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-    <script src="assets/scripts/vendor/modernizr.min.js"></script>
+    #cover-image {
+      background-image: url("https://vis.shapespark.com/demo/flat-for-a-couple/v14/cover.jpg");
+    }
 
-    
+    .close-help-button {
+      background-image: url("https://vis.shapespark.com/webwalk/v128/img/close.svg");
+    }
+  </style>
 
-<title>
-</title></head>
+  <title>Architectural visualization</title>
+</head>
 
 <body>
+  <noscript>
+    &lt;div class="message error-message absolute-center"&gt;
+      Shapespark visualizations require JavaScript. See
+      &lt;a href="http://enable-javascript.com/" target="_blank"&gt;
+        the instructions&lt;/a&gt; to enable JavaScript in your browser.
+    &lt;/div&gt;
+  </noscript>
 
-    <header id="header">
-        
-
-
-<div class="buttons">
-	<a class="logo no-link" href="index.html">
-        <span></span>
-    </a>
-    <button class="nav">
-        <span class="hamburger"></span>
-    </button>
-</div>
-
-<aside class="menu">
-    <div class="nav-slanted"></div>
-    <nav>
-        <ul>
-            <li class="mobile">
-                <a class="no-link" data-view="homepage" href="index.html">
-                    <span>Home</span>
-                </a>
-            </li>
-            <li>
-                <a data-type="pages" data-view="progetti" href="progetti/favola">
-                    <span>Progetti</span>
-                </a>
-            </li>
-            <li>
-                <a data-type="pages" data-view="attivita" href="attivita/costruzioni">
-                    <span>Attività</span>
-                </a>
-            </li>
-            <li>
-                <a data-type="pages" data-view="settori" href="settori/retail">
-                    <span>Settori</span>
-                </a>
-            </li>
-            <li>
-                <a data-type="pages" data-view="azienda" href="azienda/squadra">
-                    <span>Azienda</span>
-                </a>
-            </li>
-            <li>
-                <a data-type="pages" data-view="contact" href="contatti">
-                    <span>Contatti</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <div class="nav-lang">
-    <a class="no-link" href="index.html"> IT </a>
-    <a class="no-link" href="en/index.html"> EN </a>
+  <div id="cover-image">
   </div>
-</aside>
 
+  <!-- tabindex allows to give the canvas keyboard focus with a
+         focus() function -->
+  <canvas id="walk-canvas" tabindex="-1">
+  </canvas>
 
-<div id="nav-lat">
-    <div id="nav-attivita">
-        <a data-type="pages" data-view="attivita" href="attivita/costruzioni">Attività</a>
+  <div id="info-message" class="message info-message" style="display: none">
+  </div>
+
+  <div id="error-message" class="message error-message absolute-center" style="display: none">
+  </div>
+
+  <!-- Error messages in old IEs can not be shown from JS, because old
+       IEs fail to parse new JS constructs -->
+  <!--[if lte IE 9]>
+      <div class="message error-message absolute-center">
+        Old versions of the Internet Explorer browser do not support
+        <a href="https://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation"
+           target="_blank">
+          WebGL</a>.
+        <br/>
+        <a href="https://get.webgl.org/" target="_blank">
+          Find out how to get it.</a>
+      </div>
+  <![endif]-->
+
+  <img id="play-button" class="absolute-center" src="https://vis.shapespark.com/webwalk/v128/img/play.svg" style="" _vimium-has-onclick-listener="">
+
+  <svg id="primary-progress" class="absolute-center" viewBox="-58 -58 116 116" style="display: none">
+    <circle cx="0" cy="0" r="50" stroke-width="14"></circle>
+    <circle id="primary-progress-done" cx="0" cy="0" r="50" stroke-width="8" stroke-dasharray="315.159" stroke-dashoffset="314.159" transform="rotate(-90)"></circle>
+  </svg>
+
+  <div id="secondary-progress" style="display: none">
+    <div id="secondary-progress-done"></div>
+  </div>
+
+  <div id="info-bar" class="ui-top ui-left" style="">
+    <a id="author-logo" class="info-item ui-panel" style="display: none" target="_blank">
+      <img>
+    </a><!-- NS = no spaces
+ --><div id="info-text" class="info-item ui-panel" style="display: none" _vimium-has-onclick-listener="">
+      <div>
+        <div id="info-title"></div>
+      </div>
+      <div>
+        <a id="info-author" target="_blank"></a>
+      </div>
     </div>
-    <div id="nav-settori">
-        <a data-type="pages" data-view="settori" href="settori/retail">Settori</a>
+  </div>
+
+  <div id="tour-view-name" class="ui-panel ui-bottom ui-center" style="display: none" _vimium-has-onclick-listener=""> </div>
+
+  <div id="menu-bar" class="ui-bottom ui-right" style="">
+    <div id="menu-buttons" style="display: none">
+      <div id="help-button" class="menu-button menu-item ui-hoverable ui-panel" _vimium-has-onclick-listener="">
+        ?
+      </div><!-- NS
+   --><div id="tour-button" class="menu-button menu-item ui-hoverable ui-panel" style="display: none" _vimium-has-onclick-listener="">
+        <img src="https://vis.shapespark.com/webwalk/v128/img/tour.svg">
+      </div><!-- NS
+   --><div id="vr-button" class="vr-specific menu-button menu-item ui-hoverable ui-panel" style="display: none" _vimium-has-onclick-listener="">
+        VR
+      </div><!-- NS
+   --><div id="fullscreen-button" class="fullscreen-specific menu-button menu-item ui-hoverable
+                  ui-panel" style="display: none" _vimium-has-onclick-listener="">
+        <img src="https://vis.shapespark.com/webwalk/v128/img/fullscreen.svg">
+      </div>
+    </div><!-- NS
+ --><a id="engine-logo" class="menu-item ui-panel" style="display: none" href="https://www.строитель.com" target="_blank">
+      <div id="engine-logo-text" style="display: none"></div><!-- NS
+   --><img fill src="logo.png">
+    </a>
+  </div>
+
+  <div id="view-list" class="ui-top ui-right" style="display: none;">
+    <div class="view ui-hoverable ui-panel" _vimium-has-onclick-listener=""></div>
+  </div>
+
+  <div id="desktop-help" class="help ui-panel absolute-center" style="display: none" _vimium-has-onclick-listener="">
+    <div id="close-desktop-help-button" class="close-help-button"></div>
+    <div id="desktop-help-switch">
+      <div id="basic-desktop-help-option">
+        базовые
+      </div><!-- NS = no spaces
+   --><div id="advanced-desktop-help-option">
+        расширенные
+      </div>
     </div>
-</div>
 
+    <div id="desktop-help-content">
 
-<nav id="sidebar" role="navigation" aria-label="Quick Navigation">
-    <ol class="bar nav--bar">
-        <!--creato dinamicamente-->
-    </ol>
-</nav>
-    </header>
+      <div id="desktop-basic-help" class="help-columns" style="display: none">
+        <div class="help-column3">
+          <h1>Мышь</h1>
+          <img src="https://vis.shapespark.com/webwalk/v128/img/mouse-controls.svg">
+        </div><!-- NS
+     --><div class="help-column3-sep">или</div><!-- NS
+     --><div class="help-column3">
+          <h1>Клавиатура</h1>
+          <img src="https://vis.shapespark.com/webwalk/v128/img/keyboard-controls.svg">
+        </div><!-- NS
+     --><div class="help-column3-sep">
+          или
+        </div><!-- NS
+     --><div class="help-column3">
+          <h1>VR очки</h1>
+          <img src="https://vis.shapespark.com/webwalk/v128/img/vr-controls.svg">
+        </div>
+      </div>
 
-    <section id="main">
-        <div id="container" class="container">
+      <div id="advanced-desktop-help" style="display: none">
+        <h1>Мышь</h1>
+        <div>
+          <div class="help-how">
+            удерживание <strong>левой кнопки</strong>
+          </div><!-- NS
+       --><div class="help-what">смотреть вокруг</div>
+        </div>
+        <div>
+          <div class="help-how">
+            клик <strong>левой кнопкой</strong>
+          </div><!-- NS
+       --><div class="viewer-specific help-what">
+            передвижение в место клика
+          </div><!-- NS
+       --><div class="editor-specific help-what" style="display: none">
             
-
-<article class="slider--fullscreen scroller" data-base-href="">
-
-    
-
-    <section class="slider__item" id="home1" data-idx="1" data-path="/home">
-        <div class="wrap">
-            <div class="cont">
-                <div id="home-parallax" class="parallax">
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer10" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer9" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer8" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer7" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.10">
-                        <div id="home-layer6" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.13">
-                        <div id="home-layer5" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.15">
-                        <div id="home-layer4" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.23">
-                        <div id="home-layer3" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.20">
-                        <div id="home-layer2" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.30">
-                        <div id="home-layer1" class="gear"></div>
-                    </div>
-                    <div class="layer" data-depth="0.40">
-                        <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-	top: 90%;
-">
-                            <span>РЕМОНТ</span>
-                            <span>КВАРТИР</span>
-                        </h2>
-                    </div>
-
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <section class="slider__item" id="home2" data-idx="2" data-path="/attivita">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50 grid-right">
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>ремонт</span>
-                    </h2>
-                </div>
-                <div class="grid-50 grid-left">
-                    <div class="cont-text left-text">
-                        <p style="font-weight: bold; letter-spacing: 0.2px;word-spacing: 4px;">
-                           Наша компания готова выполнить ремонт и отделку старой или новой квартиры. Общая площадь, сложность дизайн-проекта и расположение объекта не имеют значения. Мы работаем и в новостройках, «хрущевках» и «сталинках». Высокая квалификация позволяет нашим мастерам решать любые задачи.
-                        </p>
-                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>виды услуг</span></a>
-                    </div>
-                </div>
-            </div>
+        <div>
+          <div class="help-how"><strong>Скролл</strong></div><!-- NS
+       --><div class="help-what">передвижение прямо</div>
         </div>
-    </section>
-
-    <section class="slider__item" id="home3"  data-idx="3" data-path="/settori">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50">
-                    <div class="mask-rect mask-rect--left">
-                        <img class="clipped" src="assets/styles/3d.png" style="height: 75%;" />
-                    </div>
-                    <h2 style="
-  
-    font-size: 70px;
-    font-weight: bold;
-    text-align: right;
-
-">
-                        <span>3D</span>
-                    </h2>	
-                </div>
-                <div class="grid-50">
-                    <div class="cont-text right-text">
-                        <p style="font-weight: bold; letter-spacing: 0.2px;word-spacing: 4px;" >
-                            Визуализация интерьера помогает добиться полного взаимопонимания между дизайнером и заказчиком и полностью избежать любых разногласий, ведь заказчик может среди нескольких вариантов выбрать тот, который ему больше нравится.
-Так, например, можно подобрать все, от цвета обоев и пола, до мебели и светильник
-                        </p>
-						
-                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>примеры работ</span></a>
-                    </div>
-                </div>
-
+        <h1>Клавиатура</h1>
+        <div>
+          <div class="help-how">
+            <div>
+              <div class="help-key-placeholder"></div><!-- NS
+           --><div class="help-key">↑</div><!-- NS
+           --><div class="help-key-placeholder"></div>
             </div>
-        </div>
-    </section>
-
-    <section class="slider__item" id="home4" data-path="/azienda">
-        <div class="wrap">
-            <div class="cont">
-                <div class="grid-50 grid-right">
-                    <div class="mask-rect mask-rect--right">
-                       <img class="clipped" src="assets/styles/13.png" />
-                    </div>
-
-                    <h2 style="
-    font-size: 70px;
-    font-weight: bold;
-">
-                        <span>этапы</span>
-                    </h2>
-                </div>
-                <div class="grid-50 grid-left">
-                    <div class="cont-text left-text">
-                        <p style="font-weight: bold; letter-spacing: 0.2px;word-spacing: 4px;">
-                           Любой капитальный ремонт, независимо от его стоимости, выполняется поэтапно. Оплата услуг производится заказчиком по факту окончания каждого этапа работ и после подписания соответствующего акта. Предоплата же вносится только за черновые материалы.
-							
-                        </p>
-                        <a data-type="pages" data-view="attivita" href="attivita.1" ><span>этапы работ</span></a>
-                    </div>
-                </div>
+            <div>
+              <div class="help-key">←</div><!-- NS
+           --><div class="help-key">↓</div><!-- NS
+           --><div class="help-key">→</div>
             </div>
+          </div><!-- NS
+       --><div class="help-what">передвигаться и смотреть вокруг</div>
         </div>
-    </section>
-
-    <section class="slider__item" id="home5" data-path="/contatti">
-        <div class="wrap">
-            <div class="cont">
-
-                <div class="grid-50">
-                    <h2><span>Контакты</span></h2>
-                    <div class="cont-text left-text">
-                        <p class="text-simple">Любые вопросы вы можете задать лично архитектору или дизайнеру, позвонив по телефонам:</p>
-                        <a href="javascript:void(0);" class="no-link open-overlay" data-overlay-id="contact"><span>Contattaci</span></a>
-                    </div>
-                </div>
-                <div class="grid-50">
-                    <div class="cont-text right-text no-style">
-                        <div class="contact-num">
-                            <span class="label">tel</span>
-                            <a class="no-link" href="tel:0456152399">
-                                <span class="small-nr">+39</span>
-                                <span class="big-nr">045 615 23 99</span>
-                            </a>
-                        </div>
-                        <div class="contact-num">
-                            <span class="label">fax</span>
-                            <span class="small-nr">+39</span>
-                            <span class="big-nr">045 617 03 69</span>
-                        </div>
-
-                        <p class="text-simple address">
-                         Viale del Lavoro, 46 <br/>
-                         37030 Colognola ai Colli (VR)
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Viale+del+Lavoro,+46,+37030+Str%C3%A0-Montanara-Pieve+VR/@45.422955,11.1515229,17z/data=!3m1!4b1!4m2!3m1!1s0x477f5cb06fc2ab2d:0x8290c9818469dd48" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Corso Venezia 8, <br/>
-                         20121, Milano
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Corso+Venezia,+8,+20121+Milano/@45.4678024,9.1964533,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c6bac329751d:0x7b794a05c536943d!8m2!3d45.4677987!4d9.198642" class="no-link"><span>google maps</span></a>
-
-                        <p class="text-simple address">
-                         Via Flaminia 42/B  <br/>
-                         06031 Bevagna, Perugia
-                        </p>
-                        <a target="_blank" href="https://www.google.it/maps/place/Via+Flaminia,+42,+06031+Bevagna+PG/@42.9384259,12.6210433,17z/data=!3m1!4b1!4m5!3m4!1s0x132e855567d5596f:0xaafe203ed5cc8cfb!8m2!3d42.938422!4d12.623232" class="no-link"><span>google maps</span></a>
-
-                    </div>
-                </div>
+        <div>
+          <div class="help-how">
+            <div>
+              <div class="help-key-placeholder"></div><!-- NS
+           --><div class="help-key">W</div><!-- NS
+           --><div class="help-key-placeholder"></div>
             </div>
-        </div>
-    </section>
-
-    <a href="index.html#" class="bt-go-down" aria-label="scopri"> </a>
-
-</article>
-        </div>
-    </section>
-    
-    
-
-
-<div id="contact-overlay" class="cont-overlay">
-    <div class="nav-slanted"></div>
-
-    <div class="wrap">
-        <div class="cont">
-
-
-
-            <div class="grid-30 cont-text">
-                <h2>
-                    <span>Контакты</span>
-                </h2>
-                <p class="responsive">
-                    Контакты 2.
-                </p>
-                <p class="text-simple">
-                    Мы с удовольствием ответим на ваши вопросы. Ответ придет на указанный вами электронный адрес в течение 24-х часов. Все письма внимательно прочитываются
-                </p>
-
-                <a href="javascript:void(0);" id="backForm" class="no-link"><span>Torna al form</span></a>
-
-
+            <div>
+              <div class="help-key">A</div><!-- NS
+           --><div class="help-key">S</div><!-- NS
+           --><div class="help-key">D</div>
             </div>
-            <div class="grid-60">
-                <form id="contactform" action="http://petas.it/thank-you" method="post">
-                    <div class="form-labels clearfix">
-
-                        <label for="contactperson" class="hidden"></label>
-                        <input type="text" data-name="contactperson" name="contactperson" required placeholder="Nome e Cognome *" />
-
-                        <label for="email" class="hidden"></label>
-                        <input type="email" data-name="email" name="email" required placeholder="Email *" />
-
-                        <label for="country" class="hidden"></label>
-                        <input type="text" data-name="country" name="country" required placeholder="Città *" />
-
-                        <label for="phone" class="hidden"></label>
-                        <input type="text" data-name="telephone" name="telephone" required placeholder="Telefono *" />
-
-                        <label for="message" class="hidden"></label>
-                        <textarea rows="5" cols="40" data-name="message" placeholder="Richiesta" required name="message"></textarea>
-                        <input id="hidPrivacy" type="hidden" value="1" />
-                    </div>
-                    <div class="footer-form clearfix">
-
-                        <div class="checkbox-wrapper left">
-                            <input id="checkboxPrivacy" type="checkbox" name="privacy" data-name="checkbox" class="nl-privacy-check checkbox-field" required>
-                            <a id="privacyOpen" class="no-link left" href="javascript:void(0);"> Accetta l'informativa sulla privacy</a>
-                        </div>
-
-                        <div class="send-wrapper cont-text">
-                            <a id="lnkSend" href="javascript:void(0)" class="send no-link">
-                                <span>Invia richiesta</span>
-                            </a>
-                            <span id="result"> EMAIL INVIATA CORRETTAMENTE </span>
-                        </div>
-                        <span id="required-fields">* campi richiesti</span>
-                    </div>
-                </form>
-                <div id="privacy_cont">
-                    <div id="privacy_overflow"></div>
-                    <div id="privacy_text">
-                        <div class="cont">
-                            <div class="cont-text text-center">
-
-                                <p>Privacy policy</p>
-
-                                <p class="text-simple">In questa pagina si descrivono le modalità di gestione del sito www.petas.it in riferimento al trattamento dei dati personali degli utenti che lo consultano. Il presente documento è stato redatto sulla falsariga dell'analogo documento presente sul sito del Garante della Privacy in data 16/08/2006 e modificato ed integrato secondo le specifiche necessità.</p>
-
-                                <p class="text-simple">Si tratta di un'informativa che è resa anche ai sensi dell'art. 13 del d.lgs. n. 196/2003 - Codice in materia di protezione dei dati personali - a coloro che interagiscono con i servizi web di Petas S.r.l. - P.IVA: IT03374880239 , accessibili per via telematica a partire dall'indirizzo:
-                                </p>
-
-                                <br>
-                                <p class="text-simple"> http://www.petas.it </p>
-                                <br>
-
-                                <p class="text-simple">corrispondente alla pagina iniziale del sito ufficiale della società Petas S.r.l.<p class="text-simple">
-
-                                <p class="text-simple">L'informativa è resa solo per il sito di Petas S.r.l., e non anche per altri siti web eventualmente consultati dall'utente tramite link.<p class="text-simple">
-
-                                <p class="text-simple">L'informativa si ispira anche alla Raccomandazione n. 2/2001 che le autorità europee per la protezione dei dati personali, riunite nel Gruppo istituito dall'art. 29 della direttiva n. 95/46/CE, hanno adottato il 17 maggio 2001 per individuare alcuni requisiti minimi per la raccolta di dati personali on-line, e, in particolare, le modalità, i tempi e la natura delle informazioni che i titolari del trattamento devono fornire agli utenti quando questi si collegano a pagine web, indipendentemente dagli scopi del collegamento.</p>
-
-                                <p>Il "Titolare" del trattamento</p>
-                                <p class="text-simple">A seguito della consultazione di questo sito possono essere trattati dati relativi a persone identificate o identificabili.<p class="text-simple">
-
-                                <p class="text-simple">Il "titolare" del loro trattamento è  Petas s.r.l., che ha sede in Viale del Lavoro, 19B8 - 37030 Colognola Ai Colli - VR (ITALIA).<p class="text-simple">
-
-                                <p>Luogo di trattamento dei dati</p>
-                                <p class="text-simple">I trattamenti connessi ai servizi web di questo sito hanno luogo presso la predetta sede di Petas S.r.l. e sono curati solo da personale tecnico dell’Ufficio incaricato del trattamento, oppure da eventuali incaricati interni di occasionali operazioni di manutenzione.</p>
-
-                                <p class="text-simple">Nessun dato derivante dal servizio web viene comunicato o diffuso, se non per operazioni strettamente legate all'oggetto della richiesta dell'utente.</p>
-
-                                <p class="text-simple">I dati personali forniti dagli utenti che inoltrano richieste di invio di materiale informativo (contratti, schede commerciali, informazioni in generale, Cd-rom, newsletter, risposte a quesiti, ecc.) sono utilizzati al solo fine di eseguire il servizio o la prestazione richiesta e sono comunicati a terzi nel solo caso in cui ciò sia a tal fine necessario (servizio di spedizione di materiale informativo, registrazione di nomi a dominio, ecc...).</p>
-
-                                <p>Tipi di dati trattati</p>
-
-                                <p>A. Dati di navigazione</p>
-                                <p class="text-simple">I sistemi informatici e le procedure software preposte al funzionamento di questo sito web acquisiscono, nel corso del loro normale esercizio, alcuni dati personali la cui trasmissione è implicita nell’uso dei protocolli di comunicazione di Internet.</p>
-
-                                <p class="text-simple">Si tratta di informazioni che non sono raccolte per essere associate a interessati identificati, ma che per loro stessa natura potrebbero, attraverso elaborazioni ed associazioni con dati detenuti da terzi, permettere di identificare gli utenti.</p>
-
-                                <p class="text-simple">In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computer utilizzati dagli utenti che si connettono al sito, gli indirizzi in notazione URI (Uniform Resource Identifier) delle risorse richieste, l’orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server, la dimensione del file ottenuto in risposta, il codice numerico indicante lo stato della risposta data dal server (buon fine, errore, ecc.) ed altri parametri relativi al sistema operativo e all’ambiente informatico dell’utente.</p>
-
-                                <p class="text-simple">Questi dati vengono utilizzati al solo fine di ricavare informazioni statistiche anonime sull’uso del sito e per controllarne il corretto funzionamento e vengono conservati per il tempo necessario secondo quanto indicato dalla Legge. I dati potrebbero essere utilizzati per l’accertamento di responsabilità in caso di ipotetici reati informatici ai danni del sito.</p>
-
-                                <p>B. Dati forniti volontariamente dall’utente</p>
-                                <p class="text-simple">L’invio facoltativo, esplicito e volontario di posta elettronica agli indirizzi indicati su questo sito comporta la successiva acquisizione dell’indirizzo del mittente, necessario per rispondere alle richieste, nonché degli eventuali altri dati personali inseriti nella missiva.</p>
-
-                                <p class="text-simple">Specifiche informative di sintesi verranno progressivamente riportate o visualizzate nelle pagine del sito predisposte per particolari servizi a richiesta.</p>
-
-                                <p>C. Cookies</p>
-                                <p class="text-simple">Nessun dato personale degli utenti viene in proposito acquisito dal sito.</p>
-
-                                <p class="text-simple">Non viene fatto uso di cookies per la trasmissione di informazioni di carattere personale, né vengono utilizzati c.d. cookies persistenti di alcun tipo, ovvero sistemi per il tracciamento degli utenti.</p>
-
-                                <p class="text-simple">L’uso di c.d. cookies di sessione (che non vengono memorizzati in modo persistente sul computer dell’utente e svaniscono con la chiusura del browser) è strettamente limitato alla trasmissione di identificativi di sessione (costituiti da numeri casuali generati dal server) necessari per consentire l’esplorazione sicura ed efficiente del sito.</p>
-
-                                <p class="text-simple">I c.d. cookies di sessione utilizzati in questo sito evitano il ricorso ad altre tecniche informatiche potenzialmente pregiudizievoli per la riservatezza della navigazione degli utenti e non consentono l’acquisizione di dati personali identificativi dell’utente.</p>
-
-                                <p>Facoltatività del conferimento dei dati</p>
-                                <p class="text-simple">A parte quanto specificato per i dati di navigazione, l’utente è libero di fornire i dati personali riportati nei moduli di richiesta presenti nel sito o comunque indicati in contatti con l'Ufficio per sollecitare l’invio di materiale informativo o di altre comunicazioni.</p>
-
-                                <p class="text-simple">Il loro mancato conferimento può comportare l’impossibilità di ottenere quanto richiesto.</p>
-
-                                <p class="text-simple">Per completezza va ricordato che in alcuni casi (non oggetto dell’ordinaria gestione di questo sito) l’Autorità può richiedere notizie e informazioni ai sensi dell'art 157 del d.lgs. n. 196/2003, ai fini del controllo sul trattamento dei dati personali. In questi casi la risposta è obbligatoria a pena di sanzione amministrativa.</p>
-
-                                <p>Modalità del trattamento
-                                I dati personali sono trattati con strumenti automatizzati per il tempo strettamente necessario a conseguire gli scopi per cui sono stati raccolti.</p>
-
-                                <p class="text-simple">Specifiche misure di sicurezza sono osservate per prevenire la perdita dei dati, usi illeciti o non corretti ed accessi non autorizzati.</p>
-
-                                <p>Diritti degli interessati</p>
-                                <p class="text-simple">I soggetti cui si riferiscono i dati personali hanno il diritto in qualunque momento di ottenere la conferma dell’esistenza o meno dei medesimi dati e di conoscerne il contenuto e l’origine, verificarne l’esattezza o chiederne l’integrazione o l’aggiornamento, oppure la rettificazione (art. 7 del d.lgs. n. 196/2003).</p>
-
-                                <p class="text-simple">Ai sensi del medesimo articolo si ha il diritto di chiedere la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, nonché di opporsi in ogni caso, per motivi legittimi, al loro trattamento.</p>
-
-                                <p class="text-simple">Le richieste vanno rivolte a Petas S.r.l..</p>
-
-                                <p>Precisazioni</p>
-                                <p class="text-simple">Si precisa che il presente documento, pubblicato all’indirizzo http://www.petas.it/privacy.cfm, costituisce la "Privacy Policy" di questo sito che sarà soggetta ad aggiornamenti.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div><!-- NS
+       --><div class="help-what">передвигаться и смотреть вокруг</div>
         </div>
+        <div>
+          <div class="help-how">
+            <div class="help-key">PgUp</div><div class="help-key">PgDn</div>
+            или
+            <div class="help-key">Q</div><div class="help-key">E</div>
+          </div><!-- NS
+       --><div class="help-what">изменить высоту</div>
+        </div>
+        <div>
+          <div class="help-how">
+            <div class="help-key">1</div> – <div class="help-key">9</div>
+          </div><!-- NS
+       --><div class="help-what">смена комнаты</div>
+        </div>
+        <h1>VR очки</h1>
+        <div>
+          <div class="help-how">
+            <div>
+              <strong>Взгляд на конкретное место
+            </div>
+            <div>
+              или
+            </div>
+            <div>
+              нажмите кнопку контроллера
+            </div>
+          </div><!-- NS
+       --><div class="help-what">передвижение</div>
+        </div>
+      </div>
     </div>
+  </div>
 
-</div>
-
-
-<div id="gallery-overlay" class="cont-overlay">
-    <div class="nav-slanted"></div>
-
-    <div class="slideshow">
-
+  <div id="mobile-help" class="help ui-panel absolute-center" style="display: none" _vimium-has-onclick-listener="">
+    <div id="close-mobile-help-button" class="close-help-button"></div>
+    <div class="help-columns">
+      <div class="help-column2">
+        <h1>Нажать</h1>
+        <img src="https://vis.shapespark.com/webwalk/v128/img/touch-controls.svg">
+      </div><!-- NS
+   --><div class="help-column2-sep">
+        или
+      </div><!-- NS
+   --><div class="navigation-help-column2">
+        <h1>VR очки</h1>
+        <img src="https://vis.shapespark.com/webwalk/v128/img/vr-controls.svg">
+      </div>
     </div>
+  </div>
+  <script type="text/javascript">
+    window.onload = function() {
+      var config = new WALK.SceneLoadConfig();
+      config.assetsUrl = 'https://vis.shapespark.com/demo/flat-for-a-couple/v14/';
+      WALK.init(config);
+      function receiveMessage(event) {
+        WALK.play();
+      }
+      window.addEventListener('message', receiveMessage, false);
+    }
+  </script>
+  <script src="webwalk/v124/walk.min.js" type="text/javascript"></script>
 
-    <div class="nav-gallery">
-        <a href="javascript:void(0);" id="prev" class="no-link"><span></span></a>
-        <a href="javascript:void(0);" id="next" class="no-link"><span></span></a>
-    </div>
-</div>
 
-
-    
-
-<footer id="footer">
-    <div class="left-footer">© PETAS . P.IVA IT 03374880239 . REA 331154 </div>
-    <div class="right-footer">
-        <a href="javascript:void(0)" class="no-link open-overlay" data-overlay-id="contact">Contattaci</a>
-        <span>.</span>
-        <a href="http://www.aquest.it" target="_blank" class="no-link">CREDITS</a>
-    </div>
-</footer>
-
-    <script>var lang = 'it', view = 'homepage';</script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="assets/scripts/petas.min.js"></script>
-</body>
-
-</html>
-
+</body></html>
