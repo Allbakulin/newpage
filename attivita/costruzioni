@@ -30,7 +30,7 @@
 
 
 <div class="buttons">
-	<a class="logo no-link" href="../index.html">
+	<a class="logo no-link" href="http://127.0.0.1:8080">
         <span></span>
     </a>
     <button class="nav">
